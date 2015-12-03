@@ -1,0 +1,310 @@
+.container-fluid {
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+/* ==============================
+				MENU - NAVBAR @ TOP
+================================ */
+
+.menu {
+	background: rgba(0, 0, 0, .4);
+	padding-top: 15px;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+.menu ul {
+	text-align: center;
+	padding-left: 0;
+}
+
+.menu li {
+	display: inline;
+	padding: 10px;
+	padding-left: 4%;
+	padding-right: 4%;
+	text-align: center;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: rgb(240, 240, 240);
+}
+
+.menu li a:hover {
+	color: rgb(0, 0, 0);
+}
+
+/* ========================
+					HOME
+========================= */
+
+
+#name h1 {
+	color: rgb(240, 240, 240);
+	font-size: 3em;
+	margin-bottom: 0;
+}
+
+#name h3 {
+	color: rgb(0, 0, 0);
+	font-size: 2em;
+	margin-left:20%;
+	padding-left: 4%;
+	padding-top: 3px;
+	margin-top: 0;
+	width: 240px;
+	font-family: 'Josefin Sans', sans-serif;
+	border-top: 1px solid black;
+	text-align: right;
+}
+
+#name {
+	margin-top: 320px;
+	margin-left: 20px;
+}
+
+/* ========================
+					IMAGE
+========================== */
+
+video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -100;
+}
+
+.image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+/* =========================
+					BIO
+========================== */
+
+#bio-page {
+	background-color: rgb(180, 180, 180);
+}
+
+.bio {
+	margin-top: 55%;
+	font-size: 1.4em;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	padding-left: 0;
+}
+
+.bio li {
+	margin: 5px;
+	list-style-type: none;
+	padding
+}
+
+.bio hr {
+	margin: 5px;
+	padding: 0;
+	border: 1px dotted rgb(220, 220, 220);
+	width: 100px;
+}
+
+/* ==========================
+					PORTFOLIO
+=========================== */
+
+#port {
+	height: 500px;
+	overflow-y: scroll;
+	margin-top: 50px;
+}
+
+#title {
+   text-align: center;
+   font-size: 1.3em;
+   color: black;
+
+}
+
+.project {
+   text-align: center;
+   max-width: 100%;
+   color: rgb(240, 240, 240);
+}
+
+.project img{
+   width: 50%;
+   opacity: .6;
+   margin-bottom: 10px;
+}
+
+.project img:hover {
+	opacity: 1;
+}
+
+#window {
+	width: 200px;
+}
+
+#blog {
+	width: 240px;
+}
+
+#posthaste {
+	width: 240px;
+}
+
+#dedo {
+	width: 240px;
+}
+
+#bela_img {
+	width: 240px;
+}
+
+#arboretum_img {
+	width: 240px;
+}
+
+#tincan {
+	background-color: white;
+	width: 180px;
+	padding: 10px;
+	border-radius: 25px;
+	border: 1px solid black;
+}
+
+.heading {
+	font-size: 1.4em;
+	color: rgb(255, 255, 255);
+}
+
+.description {
+   width: 60%;
+   margin: auto;
+   font-size: 1.4em;
+   color: white;
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+.project p {
+   text-align: center;
+}
+
+.project hr {
+   width: 70%;
+   border: 1px solid rgb(0, 0, 0);
+}
+
+.video {
+   position: relative;
+   padding-bottom: 56.25%; /* 16:9 */
+   padding-top: 25px;
+   height: 0;
+   margin-top: 25px;
+   margin-left: 18%;
+   margin-right: 18%;
+   margin-bottom: 0;
+}
+
+.video iframe {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 80%;
+}
+
+/*========================
+				CONTACT
+=======================  */
+
+.contact {
+	margin: 10%;
+	border-bottom: 1px solid black;
+	font-size: 1.2em;
+}
+
+#name_contact h3 {
+	border-top: 1px solid black;
+	color: rgb(0, 0, 0);
+	font-size: 2em;
+	margin-left:20%;
+	padding-left: 4%;
+	padding-top: 3px;
+	margin-top: 0;
+	width: 240px;
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: right;
+}
+
+#email {
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+}
+
+#name_contact h1 {
+	margin-bottom: 0;
+	color: rgb(180, 180, 180);
+}
+
+
+/* ======================
+				MEDIA QUERIES
+======================== */
+
+
+@media only screen and (max-width: 640px) {
+  
+	#name h1 {
+		font-size: 2.3em;
+		text-align: center;
+	}
+
+	#name h3 {
+		text-align: right;
+		font-size: 1.7em;
+		margin-left:10%;
+		padding-left: 0;
+		margin-top: 0;
+		font-family: 'Josefin Sans', sans-serif;
+		border-top: 1px solid black;
+	}
+
+	#name {
+		width: 300px;
+		margin: 10 auto;
+		margin-top: 50%;
+	}
+
+}
+
+@media only screen and (max-device-width: 640px) {
+  
+	#name h1 {
+		font-size: 2.3em;
+		text-align: center;
+	}
+
+	#name h3 {
+		text-align: right;
+		font-size: 1.7em;
+		margin-left:10%;
+		padding-left: 0;
+		margin-top: 0;
+		font-family: 'Josefin Sans', sans-serif;
+		border-top: 1px solid black;
+	}
+
+	#name {
+		width: 300px;
+		margin: 10 auto;
+		margin-top: 50%;
+	}
+
+}

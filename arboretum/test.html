@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>test</title>
+</head>
+
+<body>
+
+<script language="JavaScript" src="js/script.js">
+var today = new Date();
+var hourNow = today.getHours();
+var greeting;
+
+if (hourNow > 18) {
+    greeting = 'Good evening!';
+} else if (hourNow > 12) {
+    greeting = 'Good Afternoon!';
+} else if (hourNow > 0) {
+    greeting = 'Good Morning!';
+} else {
+    greeting = 'Welcome!';
+}
+
+document.write('<h1>' + greeting + '</h1>');
+document.write('<h1>' + hourNow + '</h1>')
+</script>
+
+</body>
+</html>
