@@ -1,4 +1,6 @@
 
+@import 'color';
+
 .container-fluid {
 	width: 100%;
 	max-width: 1440px;
@@ -226,27 +228,29 @@ video {
 	font-size: 1.2em;
 }
 
-#name_contact h3 {
-	border-top: 1px solid black;
-	color: rgb(0, 0, 0);
-	font-size: 2em;
-	margin-left:20%;
-	padding-left: 4%;
-	padding-top: 3px;
-	margin-top: 0;
-	width: 240px;
-	font-family: 'Josefin Sans', sans-serif;
-	text-align: right;
+#name_contact {
+	text-align: center;
+	h1 {
+		margin-bottom: 0;
+		color: white;
+	}
+	h3 {
+		border-top: 1px solid $dk_gray;
+		color: $dk_gray;
+		font-size: 2em;
+		margin-left: 25%;
+		padding-left: 4%;
+		padding-top: 3px;
+		margin-top: 0;
+		width: 240px;
+		font-family: 'Josefin Sans', sans-serif;
+		text-align: right;
+	}
 }
 
 #email {
 	font-family: 'Josefin Sans', sans-serif;
 	text-align: center;
-}
-
-#name_contact h1 {
-	margin-bottom: 0;
-	color: rgb(180, 180, 180);
 }
 
 
