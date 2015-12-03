@@ -2,6 +2,7 @@
 @import 'color';
 
 .container-fluid {
+	background-color: black;
 	width: 100%;
 	max-width: 1440px;
 	margin: 0 auto;
@@ -12,11 +13,12 @@
 				MENU - NAVBAR @ TOP
 ================================ */
 
-.menu {
+#menu {
 	background: rgba(0, 0, 0, .4);
 	padding-top: 15px;
 	padding-bottom: 10px;
 	width: 100%;
+	margin: 0;
 	ul {
 	text-align: center;
 	padding-left: 0;
