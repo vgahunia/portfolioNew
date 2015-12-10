@@ -1,310 +1,381 @@
-.container-fluid {
-	width: 100%;
-	max-width: 1440px;
-	margin: 0 auto;
-	font-family: 'Julius Sans One', sans-serif;
+
+
+html,
+button,
+input,
+select,
+textarea {
+    color: rgb(255, 0, 0);
 }
 
-/* ==============================
-				MENU - NAVBAR @ TOP
-================================ */
-
-.menu {
-	background: rgba(0, 0, 0, .4);
-	padding-top: 15px;
-	padding-bottom: 10px;
-	width: 100%;
+body {
+    font-size: 1em;
+    line-height: 1.4;
 }
 
-.menu ul {
-	text-align: center;
-	padding-left: 0;
+::-moz-selection {
+    background: rgb(255, 0, 0);
+    text-shadow: none;
 }
 
-.menu li {
-	display: inline;
-	padding: 10px;
-	padding-left: 4%;
-	padding-right: 4%;
-	text-align: center;
+::selection {
+    background: rgb(255, 0, 0);
+    text-shadow: none;
 }
 
-.menu li a {
-	text-decoration: none;
-	color: rgb(240, 240, 240);
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(255, 0, 0);
+    margin: 1em 0;
+    padding: 0;
 }
 
-.menu li a:hover {
-	color: rgb(0, 0, 0);
+img {
+    vertical-align: middle;
 }
 
-/* ========================
-					HOME
-========================= */
-
-
-#name h1 {
-	color: rgb(240, 240, 240);
-	font-size: 3em;
-	margin-bottom: 0;
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
 }
 
-#name h3 {
-	color: rgb(0, 0, 0);
-	font-size: 2em;
-	margin-left:20%;
-	padding-left: 4%;
-	padding-top: 3px;
+textarea {
+    resize: vertical;
+}
+
+/* ====================
+-------- HEADER --------
+====================== */
+
+h1 {
+    height: 100%;
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 32px;
+    margin-bottom: 3px;
+}
+
+h2 {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+}
+
+p, h4, h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.entry-header .inner {
+    text-align: left;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.entry-header { 
+    padding-top: 12px; 
+    padding-bottom: 3px;
+    background-color: rgba(0, 0, 0, 0.4); 
+    width: 100%; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    z-index: 999;
+}
+
+#menu {
+    font-family: 'Julius Sans One', sans-serif;
+    width: 100%;
+    margin: 0; 
+}
+  
+#menu ul {
+    text-align: center;
+    padding-left: 0;
+    margin-top: 0;
+}
+    
+#menu ul li {
+  display: inline;
+  padding: 11px;
+  padding-left: 4%;
+  padding-right: 4%;
+  text-align: center; 
+}
+      
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: .9em;
+}
+        
+#menu ul li a:hover {
+    color: black; 
+}
+
+/* =======================
+   Chrome Frame prompt
+ ======================= */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* =====================
+   Parallax Scroll
+ ====================== */
+
+body, html {
+	height: 100%;
+	min-height: 100%;
+	background-color: rgb(0, 0, 0);
+}
+
+.no-js {
+	padding-top: 106px;
+}
+
+h2 {
 	margin-top: 0;
-	width: 240px;
-	font-family: 'Josefin Sans', sans-serif;
-	border-top: 1px solid black;
-	text-align: right;
 }
 
-#name {
-	margin-top: 320px;
-	margin-left: 20px;
+.loading {
+	background: url('../img/ico_loading.gif') no-repeat center center;
 }
 
-/* ========================
-					IMAGE
-========================== */
-
-video {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: -100;
+section {
+	min-width: 960px;
+	opacity: 0;
 }
 
-.image {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: -1;
-}
-
-/* =========================
-					BIO
-========================== */
-
-#bio-page {
-	background-color: rgb(180, 180, 180);
-}
-
-.bio {
-	margin-top: 55%;
-	font-size: 1.4em;
-	color: white;
-	font-family: 'Josefin Sans', sans-serif;
-	padding-left: 0;
-}
-
-.bio li {
-	margin: 5px;
-	list-style-type: none;
-	padding
-}
-
-.bio hr {
-	margin: 5px;
-	padding: 0;
-	border: 1px dotted rgb(220, 220, 220);
-	width: 100px;
-}
-
-/* ==========================
-					PORTFOLIO
-=========================== */
-
-#port {
-	height: 500px;
-	overflow-y: scroll;
-	margin-top: 50px;
-}
-
-#title {
-   text-align: center;
-   font-size: 1.3em;
-   color: black;
-
-}
-
-.project {
-   text-align: center;
-   max-width: 100%;
-   color: rgb(240, 240, 240);
-}
-
-.project img{
-   width: 50%;
-   opacity: .6;
-   margin-bottom: 10px;
-}
-
-.project img:hover {
+.loaded section {
 	opacity: 1;
+	-webkit-transition: opacity 300ms ease-out;
+	-moz-transition: opacity 300ms ease-out;
+	transition: opacity 300ms ease-out;
 }
 
-#window {
-	width: 200px;
+main {
+	overflow-x: hidden;
 }
 
-#blog {
-	width: 240px;
+.bcg {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
 }
 
-#posthaste {
-	width: 240px;
+/* Slide 1 */
+#slide-1 .bcg {
+    background-image:url('../images/orange.jpg')
 }
 
-#dedo {
-	width: 240px;
+/* Slide 2 */
+#slide-2 .bcg {
+    background: none; 
+    background-color: #010101; 
+    height: 310px; 
+    text-align: center
 }
 
-#bela_img {
-	width: 240px;
+/* Slide 3 */
+#slide-3 .bcg {
+    background-image:url('../images/cusco2.jpg')
 }
 
-#arboretum_img {
-	width: 240px;
+/* Slide 4 */
+.curtainContainer {
+    width: 100%; 
+    height: 100%; 
+    position: relative;
 }
 
-#tincan {
-	background-color: white;
-	width: 180px;
-	padding: 10px;
-	border-radius: 25px;
-	border: 1px solid black;
+.curtainContainer .curtain {
+    width: 300%; 
+    height: 1px; 
+    background-color: #000000; 
+    position: absolute; 
+    top: 25%; 
+    left: 0; 
+    opacity: 0
 }
 
-.heading {
-	font-size: 1.4em;
-	color: rgb(255, 255, 255);
+.curtainContainer .copy {
+    position: absolute; 
+    bottom: 30%; 
+    left: 0; 
+    width: 100%; 
+    text-align: center;
 }
 
-.description {
-   width: 60%;
-   margin: auto;
-   font-size: 1.4em;
-   color: white;
-   font-family: 'Josefin Sans', sans-serif;
+#slide-4 .bcg {
+    background-image:url('../images/pumpkin.jpg')
 }
 
-.project p {
-   text-align: center;
+/* Slide 5 */
+#slide-5 {
+    position: relative;
 }
 
-.project hr {
-   width: 70%;
-   border: 1px solid rgb(0, 0, 0);
+#slide-5 .bcg {
+    background-image:url('../images/trees.jpg')
 }
 
-.video {
-   position: relative;
-   padding-bottom: 56.25%; /* 16:9 */
-   padding-top: 25px;
-   height: 0;
-   margin-top: 25px;
-   margin-left: 18%;
-   margin-right: 18%;
-   margin-bottom: 0;
+#slide-5 .bcg2 {
+    background-image:url('../images/trees_blur.jpg'); 
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    opacity: 0; 
+    z-index: 1
 }
 
-.video iframe {
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 80%;
+#slide-5 .bcg3 {
+    background: none; 
+    background-color: #010101; 
+    z-index: 2;  
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    opacity: 0; 
+    z-index: 2
 }
 
-/*========================
-				CONTACT
-=======================  */
-
-.contact {
-	margin: 10%;
-	border-bottom: 1px solid black;
-	font-size: 1.2em;
+.hsContainer {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
 }
 
-#name_contact h3 {
-	border-top: 1px solid black;
-	color: rgb(0, 0, 0);
-	font-size: 2em;
-	margin-left:20%;
-	padding-left: 4%;
-	padding-top: 3px;
-	margin-top: 0;
-	width: 240px;
-	font-family: 'Josefin Sans', sans-serif;
-	text-align: right;
+.hsContent {
+	max-width: 450px;
+	margin: -150px auto 0 auto;
+	display: table-cell;
+	vertical-align: middle;
+	color: #ebebeb;
+	padding: 0 8%;
+	text-align: center
 }
 
-#email {
-	font-family: 'Josefin Sans', sans-serif;
-	text-align: center;
+.hsContent h2,
+.copy h2 {
+	color: #ffffff;
+	font-size: 45px;
+	line-height: 48px;
+	margin-bottom: 12px;
 }
 
-#name_contact h1 {
-	margin-bottom: 0;
-	color: rgb(180, 180, 180);
+.hsContent p {
+	width: 400px;
+	margin: 0 auto;
+	color: #b2b2b2;
+}
+
+.hsContent a {
+	color: #b2b2b2;
+	text-decoration: underline;
+}
+
+.bgBlack {
+	background-color: rgba(0,0,0,0.75);
+	padding: 3px 10px;
 }
 
 
-/* ======================
-				MEDIA QUERIES
-======================== */
+/* ===================
+   Media Queries
+ ================== */
 
-
-@media only screen and (max-width: 640px) {
-  
-	#name h1 {
-		font-size: 2.3em;
-		text-align: center;
-	}
-
-	#name h3 {
-		text-align: right;
-		font-size: 1.7em;
-		margin-left:10%;
-		padding-left: 0;
-		margin-top: 0;
-		font-family: 'Josefin Sans', sans-serif;
-		border-top: 1px solid black;
-	}
-
-	#name {
-		width: 300px;
-		margin: 10 auto;
-		margin-top: 50%;
-	}
+@media only screen and (min-width: 35em) {
 
 }
 
-@media only screen and (max-device-width: 640px) {
-  
-	#name h1 {
-		font-size: 2.3em;
-		text-align: center;
-	}
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+}
 
-	#name h3 {
-		text-align: right;
-		font-size: 1.7em;
-		margin-left:10%;
-		padding-left: 0;
-		margin-top: 0;
-		font-family: 'Josefin Sans', sans-serif;
-		border-top: 1px solid black;
-	}
+/* ================
+   Print styles.
+================== */
 
-	#name {
-		width: 300px;
-		margin: 10 auto;
-		margin-top: 50%;
-	}
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
 
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
 }
