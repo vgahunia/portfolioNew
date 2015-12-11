@@ -1,0 +1,68 @@
+
+/*=======================================================
+---- CSS  Reset ---------------------------------------
+======================================================== */
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	overflow: auto; 
+	height: 7000px; 
+}
+
+/*=======================================================
+---- SKROLLR SLIDES ---------------------------------------
+======================================================== */
+
+
+#skrollr-body {
+	width: 100%; 
+	height: 100%; 
+	position: fixed; 
+}
+
+#skrollr-body  div {
+	overflow: hidden; 
+	position: absolute; 
+}
+
+.centered { 
+	top: 0; 
+	bottom: 0; 
+	left: 0; 
+	right: 0; 
+	margin: auto;
+ }
+
+ #slide1 {
+ 	background: rgb(255, 255, 255) url('../images/blue.png') center center no-repeat;
+ 	z-index: 5;
+ }
+
+ #slide2 {
+ 	background: rgb(0, 0, 0) url('../images/green.png') center center no-repeat;
+ 	z-index: 4;
+ }
+
+ #slide3 {
+ 	background: rgb(0, 0, 0) url('../images/yellow.png') center center no-repeat;
+ 	z-index: 3;
+ }
+
+#slide4 {
+ 	background: rgb(0, 0, 0) url('../images/red.png') center center no-repeat;
+ 	z-index: 2;
+ }
+
+ #slide5 {
+ 	background: rgb(0, 0, 0) url('../images/white.png') center center no-repeat;
+ 	z-index: 1;
+ }
+
+ #slide6 {
+ 	background: rgb(0, 0, 0) url('../images/black.png') center center no-repeat;
+ 	z-index: 0;
+ }
