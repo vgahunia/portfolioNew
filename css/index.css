@@ -37,6 +37,10 @@ body {
 	margin: auto;
  }
 
+ .box {
+ 	box-shadow: 0 0 7px black;
+ }
+
  #slide1 {
  	background: rgb(255, 255, 255) url('../images/blue.png') center center no-repeat;
  	z-index: 5;
