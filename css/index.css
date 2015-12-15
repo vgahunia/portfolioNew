@@ -14,6 +14,40 @@ body {
 }
 
 /*=======================================================
+---- MENU ---------------------------------------
+======================================================== */
+
+#menu {
+	font-family: 'Julius Sans One', sans-serif;
+	position: absolute;
+	top: 0;
+	left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  padding-top: 15px;
+  padding-bottom: 10px;
+  width: 100%;
+  margin: 0;
+  z-index: 100;
+}
+  
+#menu ul {
+  text-align: center;
+  padding-left: 0; }
+    
+#menu ul li {
+	display: inline;
+	padding: 10px;
+	padding-left: 4%;
+	padding-right: 4%;
+	text-align: center; 
+}
+  	#menu ul li a {
+  		text-decoration: none;
+  		color: #f0f0f0; }
+  		#menu ul li a:hover {
+  			color: black; }
+
+/*=======================================================
 ---- SKROLLR SLIDES ---------------------------------------
 ======================================================== */
 
@@ -43,30 +77,36 @@ body {
 
  #slide1 {
  	background: rgb(255, 255, 255) url('../images/blue.png') center center no-repeat;
- 	z-index: 5;
+ 	z-index: 6;
  }
 
  #slide2 {
  	background: rgb(0, 0, 0) url('../images/green.png') center center no-repeat;
- 	z-index: 4;
+ 	z-index: 5;
  }
 
  #slide3 {
  	background: rgb(0, 0, 0) url('../images/yellow.png') center center no-repeat;
- 	z-index: 3;
+ 	z-index: 4;
  }
 
 #slide4 {
  	background: rgb(0, 0, 0) url('../images/red.png') center center no-repeat;
- 	z-index: 2;
+ 	z-index: 3;
  }
 
  #slide5 {
  	background: rgb(0, 0, 0) url('../images/white.png') center center no-repeat;
- 	z-index: 1;
+ 	z-index: 2;
  }
 
  #slide6 {
  	background: rgb(0, 0, 0) url('../images/black.png') center center no-repeat;
+ 	z-index: 1;
+ }
+
+ #slide7 {
+ 	background: rgb(255, 255, 255) url('../images/blue.png') center center no-repeat;
  	z-index: 0;
  }
+
