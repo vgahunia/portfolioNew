@@ -9,7 +9,7 @@
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <title>Vivek Gahunia</title>
-      <meta name="description" content="">
+      <meta name="description" content="Portfolio for web and multimedia development">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
       <link href='http://fonts.googleapis.com/css?family=Calligraffitti|Julius+Sans+One|Josefin+Sans' rel='stylesheet' type='text/css'>
@@ -28,8 +28,8 @@
 		<nav id="menu" 
 			data-600="opacity: 1"
 			data-800="opacity: 0"
-			data-9000="opacity: 0"
-			data-9500="opacity: 1">
+			data-9500="opacity: 0"
+			data-10000="opacity: 1">
       <ul>
           <li><a href="#">home</a></li>
           <li><a href="pages/bio.html">bio</a></li>
@@ -47,11 +47,25 @@
 		<div id="slide_green" class="centered box" data-1500="height:100%;" data-3000="height:0%;">
 			<div class="slide_inner" >
         <a href="https://fathomless-citadel-6391.herokuapp.com/" target="_blank">
-            <img src="images/dogear.png" />
+            <img src="images/dogear1.png" class="vel-button" id="dogear_img" />
         </a>
       </div>
-      <div id="dogear_copy">
-          <p>This is a Ruby on Rails app where  booklovers can organize lists of their favorite and least favorite books, search for books and look up their nearest bookstores and libraries. DogEar makes use of such apis as Google Places, Goodreads and geolocation. Also, this app utilizes bootstrap and media queries for responsiveness and velocity/jquery-ui for javascript animations.</p>
+      <div class="static" id="dogear_copy">
+      	<ul class="tech">
+          <li>Ruby on Rails</li>
+          <li>APIs (Google Places, Goodreads and Geolocation)</li>
+          <li>Bootstrap & CSS Media Queries</li> 
+          <li>Velocity.js & JQuery-UI</li>
+        </ul>
+        <h2>where booklovers can:</h2>
+        	<ul class="what">
+        		<li>search for books by title or author</li>
+		      	<li>organize lists of their favorite and least favorite books</li>
+		      	<li>look up their nearest bookstores and libraries.</li>
+		      </ul>
+      </div>
+      <div class="static" id="trashcan">
+      		<img src="images/trashcan.png" />
       </div>
 		</div>
 
@@ -67,7 +81,12 @@
 		<div id="slide_black" class="centered box" data-9500="height:100%;" data-11000="height:0%;">
 		</div>
 
-		<div id="slide_blue2" class="centered box"></div>
+		<div id="slide_blue2" class="centered box">
+			<div class="slide_inner" >
+				<h1 data-11000="opacity: 0" data-11200="opacity:1">Vivek Gahunia</h1>
+				<h2 data-11000="opacity: 0" data-11200="opacity:1">front end developer</h2>
+			</div>
+		</div>
 
 	</div>
 
@@ -76,6 +95,10 @@
 	  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 	  <script src="js/imagesloaded.js"></script>
 	  <script src="js/skrollr.js"></script>
+	  <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+		<script src="https:////cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/velocity/1.2.3/velocity.ui.min.js"></script>
 	  <script src="js/main.js"></script>
 	  <script type="text/javascript">
 			window.onload = function() {
