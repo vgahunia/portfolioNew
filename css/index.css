@@ -140,19 +140,33 @@ body {
 	text-align: center;
 }
 
+#dogear_copy {
+	position: static !important;
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+}
+
 #slide_blue div h1 {
 	font-family: 'Julius Sans One', sans-serif;
 	color: white;
 	padding-bottom: 0;
 	margin-bottom: 4px;
+	border-bottom: 1px solid rgb(0, 0, 0);
+	width: 280px;
+	margin: 0 auto;
 }
 
 #slide_blue div h2 {
-	border-top: 2px solid black;
 	width: 240px;
 	text-align: right;
 	margin: 0 auto;
 	padding-top: 3px;
 	font-family: 'Josefin Sans', sans-serif;
+}
+
+#slide_green .slide_inner {
+	margin: 100px auto;
 }
 
