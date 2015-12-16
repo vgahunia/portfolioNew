@@ -90,7 +90,8 @@ p, h4, h3 {
 #menu {
     font-family: 'Julius Sans One', sans-serif;
     width: 100%;
-    margin: 0; 
+    margin: 0;
+    padding-bottom: 0 !important;
 }
   
 #menu ul {

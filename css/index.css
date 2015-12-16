@@ -10,7 +10,17 @@ html, body {
 
 body {
 	overflow: auto; 
-	height: 11000px; 
+	height: 12000px; 
+}
+
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('../images/loading.gif') 50% 50% no-repeat rgb(0, 0, 0);
 }
 
 /*=======================================================
@@ -24,7 +34,7 @@ body {
 	left: 0;
   background: rgba(0, 0, 0, 0.4);
   padding-top: 15px;
-  padding-bottom: 10px;
+  padding-bottom: 3px;
   width: 100%;
   margin: 0;
   z-index: 100;
@@ -32,7 +42,9 @@ body {
   
 #menu ul {
   text-align: center;
-  padding-left: 0; }
+  padding-left: 0;
+  margin-top: 0;
+}
     
 #menu ul li {
 	display: inline;
@@ -41,11 +53,16 @@ body {
 	padding-right: 4%;
 	text-align: center; 
 }
-  	#menu ul li a {
-  		text-decoration: none;
-  		color: #f0f0f0; }
-  		#menu ul li a:hover {
-  			color: black; }
+  	
+#menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: .9em;
+}
+
+#menu ul li a:hover {
+  color: black; 
+}
 
 /*=======================================================
 ---- SKROLLR SLIDES ---------------------------------------
@@ -75,38 +92,67 @@ body {
  	box-shadow: 0 0 7px black;
  }
 
- #slide1 {
+ #slide_blue {
  	background: rgb(255, 255, 255) url('../images/blue.png') center center no-repeat;
  	z-index: 6;
  }
 
- #slide2 {
+ #slide_green {
  	background: rgb(0, 0, 0) url('../images/green.png') center center no-repeat;
  	z-index: 5;
  }
 
- #slide3 {
+ #slide_yellow {
  	background: rgb(0, 0, 0) url('../images/yellow.png') center center no-repeat;
  	z-index: 4;
  }
 
-#slide4 {
+#slide_red {
  	background: rgb(0, 0, 0) url('../images/red.png') center center no-repeat;
  	z-index: 3;
  }
 
- #slide5 {
+ #slide_white {
  	background: rgb(0, 0, 0) url('../images/white.png') center center no-repeat;
  	z-index: 2;
  }
 
- #slide6 {
+ #slide_black {
  	background: rgb(0, 0, 0) url('../images/black.png') center center no-repeat;
  	z-index: 1;
  }
 
- #slide7 {
+ #slide_blue2 {
  	background: rgb(255, 255, 255) url('../images/blue.png') center center no-repeat;
  	z-index: 0;
  }
+
+ 
+
+/*=======================================================
+---- INSIDE the SLIDES ---------------------------------------
+======================================================== */
+
+.slide_inner {
+	position: relative;	
+	width: 100%;
+	margin: 20% auto;
+	text-align: center;
+}
+
+#slide_blue div h1 {
+	font-family: 'Julius Sans One', sans-serif;
+	color: white;
+	padding-bottom: 0;
+	margin-bottom: 4px;
+}
+
+#slide_blue div h2 {
+	border-top: 2px solid black;
+	width: 240px;
+	text-align: right;
+	margin: 0 auto;
+	padding-top: 3px;
+	font-family: 'Josefin Sans', sans-serif;
+}
 
