@@ -169,14 +169,14 @@ ul {
 }
 
 .what {
-	margin: 2px auto;
+	margin: 15px auto;
 	width: 50%;
 	text-align: left;
 }
 
 .what li {
 	font-size: 1.1em;
-	text-indent: 10px;
+	text-indent: 25px;
 }
 
 /* OPENING SLIDE */
@@ -224,7 +224,10 @@ ul {
 }
 
 #slide_green h2 {
-	margin-bottom: 0;
+	border-top: 3px solid white;
+	margin: 5px auto;
+	padding-top: 40px;
+	width: 240px;
 }
 
 #dogear_copy {
@@ -236,7 +239,15 @@ ul {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
-#trashcan {
+#trash {
+	margin: 0 auto;
+	margin-top: 20px;
 	text-align: center;
+	width: 240px;
+}
+
+.can {
+	position: absolute;
+	right: 43%;
 }
 

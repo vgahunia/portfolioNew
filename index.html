@@ -44,7 +44,9 @@
 			</div>
 		</div>
 
-		<div id="slide_green" class="centered box" data-1500="height:100%;" data-3000="height:0%;">
+		<div id="slide_green" class="centered box" 
+			data-2000="height:100%;" 
+			data-3000="height:0%;">
 			<div class="slide_inner" >
         <a href="https://fathomless-citadel-6391.herokuapp.com/" target="_blank">
             <img src="images/dogear1.png" class="vel-button" id="dogear_img" />
@@ -57,15 +59,26 @@
           <li>Bootstrap & CSS Media Queries</li> 
           <li>Velocity.js & JQuery-UI</li>
         </ul>
-        <h2>where booklovers can:</h2>
+        <h2
+        data-1000="opacity:0"  
+        data-1200="opacity:1">where booklovers can:</h2>
         	<ul class="what">
-        		<li>search for books by title or author</li>
-		      	<li>organize lists of their favorite and least favorite books</li>
-		      	<li>look up their nearest bookstores and libraries.</li>
+        		<li 
+        		data-1000="transform:translate3d(-100%,0%,0); opacity:0"  
+        		data-1200="transform:translate3d(0%,0%,0); opacity:1">
+        		search for books by title or author</li>
+		      	<li
+		      	data-1200="transform:translate3d(-100%,0%,0); opacity:0"  
+        		data-1400="transform:translate3d(0%,0%,0); opacity:1">organize lists of their favorite and least favorite books</li>
+		      	<li
+		      	data-1400="transform:translate3d(-100%,0%,0); opacity:0"  
+        		data-1600="transform:translate3d(0%,0%,0); opacity:1">look up their nearest bookstores and libraries.</li>
 		      </ul>
       </div>
-      <div class="static" id="trashcan">
-      		<img src="images/trashcan.png" />
+      <div class="static" id="trash">
+      		<img width="210px" class="can" src="images/trashcan1.png" data-1600="opacity:1; transform:rotateY(0deg)" data-1800="opacity:0; transform:rotateY(270deg)"/>
+
+      		<img class="can" src="images/trashcan.png" data-1600="opacity:0; transform:rotateY(270deg)" data-1800="opacity:1; transform:rotateY(0deg)"/>
       </div>
 		</div>
 
