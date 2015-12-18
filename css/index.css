@@ -271,8 +271,8 @@ ul {
 }
 
 .dedo_video:hover {
-	border: 1px solid rgb(205, 32, 44);
-	border-radius: 10px;
+	border: 6px solid rgb(205, 32, 44);
+	border-radius: 18px;
 }
 
 #dedo_copy1 {
@@ -296,7 +296,7 @@ ul {
 #dedo_copy2 {
 	display: none;
 	position: absolute;
-	width: 60%;
+	width: 45%;
 	margin: 23% auto;
 	margin-bottom: 30px;
 	text-align: center;
@@ -304,9 +304,13 @@ ul {
 	color: rgb(205, 32, 44);
 }
 
+#dedo_what {
+	text-align: center;
+}
+
 #dedo_what li {
-	display: block;
-	list-style-type: circle;
+	display: list-item;
+	list-style-position: inside;
 	font-size: 1.2em;
 }
 
