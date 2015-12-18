@@ -150,14 +150,12 @@ ul {
 
 .tech {
 	font-family: 'Josefin Sans', sans-serif;
-	list-style-type: disc;
 	padding-left: 0;
 }
 
 .tech li {
 	display: inline;
 	text-align: center;
-	list-style-type: disc;
 	font-size: .9em;
 	padding-right: 10px;
 	padding-left: 5px;
@@ -264,43 +262,58 @@ ul {
 	margin: 2% auto;
 }
 
-#dedo_video {
+.dedo_video {
+	right: 25%;
 	width: 50%;
 	margin: 0 auto;
 	text-align: center;
 	display: block;
 }
 
-#dedo_video:hover {
+.dedo_video:hover {
 	border: 1px solid rgb(205, 32, 44);
 	border-radius: 10px;
 }
 
-#dedo_copy {
+#dedo_copy1 {
+	position: absolute;
 	width: 60%;
 	margin: 23% auto;
 	margin-bottom: 30px;
 	text-align: center;
-	color: white;
 	font-family: 'Josefin Sans', sans-serif;
-}
-
-#dedo_copy .tech {
 	color: rgb(205, 32, 44);
 }
 
-#dedo_copy .tech li {
+#dedo_copy1 .tech li {
 	border-right: 2px solid rgb(205, 32, 44);
 }
 
-#dedo_copy .tech li:last-child {
+#dedo_copy1 .tech li:last-child {
 	border-right: none;
+}
+
+#dedo_copy2 {
+	display: none;
+	position: absolute;
+	width: 60%;
+	margin: 23% auto;
+	margin-bottom: 30px;
+	text-align: center;
+	font-family: 'Schoolbell', cursive;
+	color: rgb(205, 32, 44);
+}
+
+#dedo_what li {
+	display: block;
+	list-style-type: circle;
+	font-size: 1.2em;
 }
 
 #dedo_container {
 	width: 300px;
 	height: 150px;
-	margin: 2% auto;
+	margin: 35% auto;
 }
 
 #dedo_button {
@@ -314,13 +327,6 @@ ul {
 
 #dedo_button:hover {
 	cursor: pointer;
-}
-
-#dedo_what {
-	float: right;
-}
-
-#dedo_what p {
 }
 
 

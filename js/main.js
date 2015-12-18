@@ -65,6 +65,9 @@ $(document).ready(function() {
 
 	var pulser = setInterval(pulse, 500);
 
-	
+	$("#dedo_button").click(function() {
+		$('#dedo_copy1').toggle("slide", 500);
+		$('#dedo_copy2').toggle("slide", 500);
+	})
 
 })

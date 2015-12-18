@@ -12,7 +12,7 @@
       <meta name="description" content="Portfolio for web and multimedia development">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
-      <link href='http://fonts.googleapis.com/css?family=Calligraffitti|Julius+Sans+One|Josefin+Sans' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Julius+Sans+One|Josefin+Sans|Schoolbell' rel='stylesheet' type='text/css'>
 
       <link rel="stylesheet" href="css/normalize.css">
       <link rel="stylesheet" href="css/index.css">
@@ -97,18 +97,30 @@
 		<div id="slide_yellow" class="centered box" data-3500="width:100%;" data-5000="width:0%;">
 			<div id="dedo_anim" data-4000="opacity:1;" data-4500="opacity:0;">
 				<a href="http://dedo.mike-lucek.com/admins/sign_in" target="_blank">
-				<video autoplay="autoplay" loop id="dedo_video">
+				  <video autoplay="autoplay" loop class="dedo_video" id="vid1">
             <source src="video/dedo.mp4" type="video/mp4">
-        </video></a>
+          </video>
+        </a>
 			</div>
-			<div class="static" id="dedo_copy" data-4000="opacity:1;" data-4500="opacity:0;">
-      	<ul class="tech">
-          <li>Ruby on Rails</li>
-          <li>HTML5 Canvas</li>
-          <li>Bootstrap & CSS Media Queries</li> 
-          <li>Javascript & JQuery</li>
-        </ul>
+
+      <div class="static" data-4000="opacity:1;" data-4500="opacity:0;">
+  			<div class="centered" id="dedo_copy1" >
+        	<ul class="tech">
+            <li>Ruby on Rails</li>
+            <li>HTML5 Canvas</li>
+            <li>Bootstrap & CSS Media Queries</li> 
+            <li>Javascript & JQuery</li>
+          </ul>
+        </div>
+        <div class="centered" id="dedo_copy2" >
+          <ul id="dedo_what">
+            <li>Young children can learn to read and write by tracing letters and phrases.</li>
+            <li>Full CRUD implementation for users(children) and admins(teachers).</li>
+            <li>Teachers can track the progress of students.</li>
+          </ul>
+        </div>
       </div>
+
       <div class="static" id="dedo_container">
      		<div class="static" id="dedo_button" data-4200="backgroundColor:rgb(205, 32, 44)" data-4600="backgroundColor:rgb(255, 204, 0);"></div>
         <div class="static" id="dedo_what">
