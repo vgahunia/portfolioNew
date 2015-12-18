@@ -28,6 +28,27 @@ $(document).ready(function() {
 			]
 		})
 
+		.RegisterEffect("goLeft", {
+			defaultDuration: 400,
+			calls: [
+				[ { translateX: "-200px" } ]
+			]
+		})
+
+		.RegisterEffect("goRight", {
+			defaultDuration: 800,
+			calls: [
+				[ { translateX: "300px" } ]
+			]
+		})
+
+		.RegisterEffect("goBack", {
+			defaultDuration: 800,
+			calls: [
+				[ { translateX: "0px" } ]
+			]
+		})
+
 	$(".vel-button").mouseover(function() {
 		$(this).velocity("shadowIn");
 	})
@@ -38,10 +59,12 @@ $(document).ready(function() {
 	//DEDO
 
 	function pulse(){
-	  $('#dedo_button').velocity({ scale: 1.3}, "ease-in-out");
+	  $('#dedo_button').velocity({ scale: 1.4}, "ease-in-out");
 		$('#dedo_button').velocity("reverse", {duration: 1000});
 	}
 
 	var pulser = setInterval(pulse, 500);
+
+	
 
 })

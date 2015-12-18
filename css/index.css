@@ -278,7 +278,7 @@ ul {
 
 #dedo_copy {
 	width: 60%;
-	margin: 22% auto;
+	margin: 23% auto;
 	margin-bottom: 30px;
 	text-align: center;
 	color: white;
@@ -312,5 +312,17 @@ ul {
 	border-radius: 50%;
 }
 
+#dedo_button:hover {
+	cursor: pointer;
+}
 
+#dedo_what {
+	float: right;
+}
+
+#dedo_what p {
+}
+
+
+/*  MIGHTY BLOG   */
 
