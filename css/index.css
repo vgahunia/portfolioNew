@@ -179,7 +179,9 @@ ul {
 	text-indent: 25px;
 }
 
+
 /* OPENING SLIDE */
+
 
 #slide_blue div h1 {
 	font-family: 'Julius Sans One', sans-serif;
@@ -217,7 +219,9 @@ ul {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
+
 /*  DOGEAR   */
+
 
 #slide_green .slide_inner {
 	margin: 50px auto;
@@ -251,11 +255,30 @@ ul {
 	right: 43%;
 }
 
+
 /*  DEDO   */
+
+
+#dedo_anim{
+	width: 100%;
+	margin: 2% auto;
+}
+
+#dedo_video {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+}
+
+#dedo_video:hover {
+	border: 1px solid rgb(205, 32, 44);
+	border-radius: 10px;
+}
 
 #dedo_copy {
 	width: 60%;
-	margin: 25% auto;
+	margin: 22% auto;
 	margin-bottom: 30px;
 	text-align: center;
 	color: white;
@@ -274,27 +297,16 @@ ul {
 	border-right: none;
 }
 
-#dedo_anim{
-	width: 100%;
-	margin: 5% auto;
-}
-
-#dedo_video {
-	width: 50%;
-	margin: 0 auto;
-	text-align: center;
-	display: block;
-}
-
 #dedo_container {
 	width: 300px;
-	margin: 5% auto;
+	height: 150px;
+	margin: 2% auto;
 }
 
 #dedo_button {
 	width: 100px;
 	height: 100px;
-	margin: 0 auto;
+	margin: 20px auto;
 	text-align: center;
 	background-color: rgb(205, 32, 44);
 	border-radius: 50%;

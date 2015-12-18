@@ -4,6 +4,8 @@ $(window).load(function() {
 })
 
 $(document).ready(function() {
+
+	// DOGEAR
 	$("#dogear_img").hover(function() {
 		$(this).attr("src", "images/dogear_hover.png")
 	})
@@ -26,11 +28,20 @@ $(document).ready(function() {
 			]
 		})
 
-		$(".vel-button").mouseover(function() {
-			$(this).velocity("shadowIn");
-		})
-		$(".vel-button").mouseout(function() {
-			$(this).velocity("shadowBack");
-		})
+	$(".vel-button").mouseover(function() {
+		$(this).velocity("shadowIn");
+	})
+	$(".vel-button").mouseout(function() {
+		$(this).velocity("shadowBack");
+	})
+
+	//DEDO
+
+	function pulse(){
+	  $('#dedo_button').velocity({ scale: 1.3}, "ease-in-out");
+		$('#dedo_button').velocity("reverse", {duration: 1000});
+	}
+
+	var pulser = setInterval(pulse, 500);
 
 })
