@@ -23,7 +23,7 @@ body {
 	background: url('../images/loading.gif') 50% 50% no-repeat rgb(0, 0, 0);
 }
 
-ul {
+ul, ol {
 	padding-left: 0;
 }
 
@@ -331,6 +331,7 @@ ul {
 
 #dedo_button:hover {
 	cursor: pointer;
+	border: 1px solid black;
 }
 
 
@@ -338,23 +339,63 @@ ul {
 
 
 #slide_red .slide_inner {
-	margin: 140px auto;
+	position: relative;	
+	width: 400px;
+	margin: 100px auto;
+	margin-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#mighty_img:hover {
+	background-color: rgb(247, 147, 29);
+	box-shadow: 0 0 10px rgb(255, 242, 0);
+	border-radius: 10px;
 }
 
 #mighty_copy {
-	position: absolute;
+	position: relative;
 	width: 60%;
-	margin: 240px auto;
+	margin: 20px auto;
 	margin-bottom: 30px;
 	text-align: center;
 	font-family: 'Josefin Sans', sans-serif;
-	color: rgb(0, 0, 0);
+	color: rgb(255, 242, 0);
 }
 
 #mighty_copy .tech li {
-	border-right: 2px solid rgb(0, 0, 0);
+	border-right: 2px solid rgb(247, 147, 29);
 }
 
 #mighty_copy .tech li:last-child {
 	border-right: none;
+}
+
+#mighty_what {
+	position: relative;
+	width: 400px;
+	margin: 20px auto;
+	text-align: center;
+	color: rgb(255, 242, 0);
+}
+
+#mighty_what h2 {
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+#mighty_what ol {
+	width: 88%;
+}
+
+#mighty_what .what li {
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: white;
+	border: 3px solid black;
+	color: rgb(247, 147, 29);
+	margin-bottom: 10px;
+	padding: 5px;
+	text-align: left;
+	text-indent: 0;
+	font-size: 1.4em;
 }
