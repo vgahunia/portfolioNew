@@ -117,7 +117,7 @@ ul, ol {
  }
 
  #slide_white {
- 	background: rgb(0, 0, 0) url('../images/white.png') center center no-repeat;
+ 	background: rgb(0, 0, 0) url('../images/white2.png') center center no-repeat;
  	z-index: 2;
  }
 
@@ -398,4 +398,20 @@ ul, ol {
 	text-align: left;
 	text-indent: 0;
 	font-size: 1.4em;
+}
+
+/*  POSTHASTE   */
+
+#slide_white .slide_inner {
+	position: relative;	
+	width: 100%;
+	margin: 5px auto;
+	margin-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#slide_white .slide_inner img {
+	width: 60%;
 }
