@@ -336,3 +336,25 @@ ul {
 
 /*  MIGHTY BLOG   */
 
+
+#slide_red .slide_inner {
+	margin: 140px auto;
+}
+
+#mighty_copy {
+	position: absolute;
+	width: 60%;
+	margin: 240px auto;
+	margin-bottom: 30px;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgb(0, 0, 0);
+}
+
+#mighty_copy .tech li {
+	border-right: 2px solid rgb(0, 0, 0);
+}
+
+#mighty_copy .tech li:last-child {
+	border-right: none;
+}
