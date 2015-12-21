@@ -405,7 +405,7 @@ ul, ol {
 #slide_white .slide_inner {
 	position: relative;	
 	width: 100%;
-	margin: 5px auto;
+	margin: 15px auto;
 	margin-bottom: 10px;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -413,5 +413,26 @@ ul, ol {
 }
 
 #slide_white .slide_inner img {
-	width: 60%;
+	width: 50%;
+	min-width: 400px;
+	max-height: 3	00px;
+}
+
+#posthaste_copy {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	margin: 10px auto;
+	margin-bottom: 30px;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgb(240, 120, 30);
+}
+
+#posthaste_copy .tech li {
+	border-right: 2px solid rgb(240, 120, 30);
+}
+
+#posthaste_copy .tech li:last-child {
+	border-right: none;
 }

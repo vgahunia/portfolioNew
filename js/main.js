@@ -70,4 +70,12 @@ $(document).ready(function() {
 		$('#dedo_copy2').toggle("slide", 500);
 	})
 
+	// POSTHASTE
+	$("#posthaste_img").hover(function() {
+		$(this).attr("src", "images/posthaste2.png")
+	})
+	$("#posthaste_img").mouseout(function() {
+		$(this).attr("src", "images/posthaste1.png")
+	})
+
 })
