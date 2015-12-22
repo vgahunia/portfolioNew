@@ -10,7 +10,7 @@ html, body {
 
 body {
 	overflow: auto; 
-	height: 14000px; 
+	height: 13500px; 
 }
 
 .loader {
@@ -122,7 +122,7 @@ ul, ol {
  }
 
  #slide_black {
- 	background: rgb(0, 0, 0) url('../images/black.png') center center no-repeat;
+ 	background: rgb(0, 0, 0) url('../images/tincan1.png') center center no-repeat;
  	z-index: 1;
  }
 
