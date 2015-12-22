@@ -72,10 +72,15 @@ $(document).ready(function() {
 
 	// POSTHASTE
 	$("#posthaste_img").hover(function() {
-		$(this).attr("src", "images/posthaste2.png")
+		$(this).attr("src", "images/posthaste2.png");
+		$(this).css("background-color", "white");
+		$(this).css("border-radius", "100px");
+		$(this).css("padding-left", "40px");
+		$(this).css("padding-right", "40px");
 	})
 	$("#posthaste_img").mouseout(function() {
-		$(this).attr("src", "images/posthaste1.png")
+		$(this).attr("src", "images/posthaste1.png");
+		$(this).css("background-color", "rgb(240, 120, 30)");
 	})
 
 })
