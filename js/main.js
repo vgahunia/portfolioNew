@@ -74,7 +74,7 @@ $(document).ready(function() {
 	$("#posthaste_img").hover(function() {
 		$(this).attr("src", "images/posthaste2.png");
 		$(this).css("background-color", "white");
-		$(this).css("border-radius", "100px");
+		$(this).css("border-radius", "140px");
 		$(this).css("padding-left", "40px");
 		$(this).css("padding-right", "40px");
 	})
@@ -84,7 +84,7 @@ $(document).ready(function() {
 	})
 
 	//TINCAN
-	var items = document.querySelectorAll('.circle a');
+	var items = document.querySelectorAll('.circle p');
 
 	for(var i = 0, l = items.length; i < l; i++) {
 	  items[i].style.left = (50 - 35*Math.cos(-0.5 * Math.PI - 2*(1/l)*i*Math.PI)).toFixed(4) + "%";
@@ -95,6 +95,8 @@ $(document).ready(function() {
 	document.querySelector('.menu-button').onclick = function(e) {
 	   e.preventDefault(); 
 	   document.querySelector('.circle').classList.toggle('open');
+	   document.querySelector('.circle').classList.toggle('white');
 	}
+
 
 })
