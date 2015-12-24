@@ -592,14 +592,18 @@ ul, ol {
 }
 
 #title h3 {
+	color: black;
 	font-size: 1.4em;
   margin-top: 0;
   padding-top: 0;
 }
 
 #message {
+	position: absolute;
 	width: 300px;
 	margin: 40px auto;
+	top: 400px;
+	left: 300px;
 }
 
 

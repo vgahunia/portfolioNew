@@ -98,5 +98,21 @@ $(document).ready(function() {
 	   document.querySelector('.circle').classList.toggle('white');
 	}
 
+	$('#why').click(function() {
+		$('#message').html("Hello <b>world</b>!");
+	})
+
+	$('#what').click(function() {
+		$('#message').html("Bye <b>world</b>!").velocity({ translateX: 500 }, "ease-out");
+	})
+
+	$('#how').click(function() {
+		$('#message').html("HowHowHow <b>world</b>!").velocity({ scale: 1.2}, "ease-in-out");
+	})
+
+	$('#where').click(function() {
+		$('#message').html("<a href='http://sinatra.mike-lucek.com/' target='_blank'>Have a look!</a>");
+	})
+
 
 })
