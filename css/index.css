@@ -582,6 +582,7 @@ ul, ol {
   margin: 0 auto;
   text-align: center;
   top: 220px;
+  visibility: hidden;
 }
 
 #title h1 {

@@ -57,7 +57,6 @@ $(document).ready(function() {
 	})
 
 	//DEDO
-
 	function pulse(){
 	  $('#dedo_button').velocity({ scale: 1.4}, "ease-in-out");
 		$('#dedo_button').velocity("reverse", {duration: 1000});
@@ -69,6 +68,7 @@ $(document).ready(function() {
 		$('#dedo_copy1').toggle("slide", 500);
 		$('#dedo_copy2').toggle("slide", 500);
 	})
+
 
 	// POSTHASTE
 	$("#posthaste_img").hover(function() {
@@ -82,6 +82,7 @@ $(document).ready(function() {
 		$(this).attr("src", "images/posthaste1.png");
 		$(this).css("background-color", "rgb(240, 120, 30)");
 	})
+
 
 	//TINCAN
 	var items = document.querySelectorAll('.circle p');
@@ -100,7 +101,7 @@ $(document).ready(function() {
 
 	$('#what').click(function() {
 		$('#message').velocity("goBack");
-		$('#message').html("Bye <b>world</b>!").velocity({ translateX: 50 }, "ease-in-out");
+		$('#title').css("visibility", "visible").velocity({ scale: 1.1 }, "ease-in-out");
 	})
 
 	$('#why').click(function() {
