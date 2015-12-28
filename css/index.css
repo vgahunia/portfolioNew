@@ -90,6 +90,7 @@ ul, ol {
 	left: 0; 
 	right: 0; 
 	margin: auto;
+	width: 100%;
  }
 
  .box {
@@ -601,9 +602,39 @@ ul, ol {
 
 #message {
 	position: relative;
-	width: 300px;
+	width: 440px;
 	margin: 40px auto;
 	color: rgb(160, 40, 60);
+}
+
+#message a {
+	color: rgb(160, 40, 60);
+	font-style: bold;
+}
+
+#message a:hover {
+	color: rgb(0, 0, 0);
+	font-style: italic;
+}
+
+#message .tech {
+	background-color: rgba(255, 255, 255, .5);
+	padding:15px;
+}
+
+#message .tech li {
+	border-right: 2px solid rgb(160, 40, 60);
+	text-align: center;
+	padding-left: 10px;
+}
+
+#message .tech li:last-child {
+	border-right: none;
+}
+
+.tincan_why_where {
+	background-color: rgba(255, 255, 255, .5);
+	padding: 5px;
 }
 
 
