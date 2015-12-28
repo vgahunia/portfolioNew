@@ -599,11 +599,10 @@ ul, ol {
 }
 
 #message {
-	position: absolute;
+	position: relative;
 	width: 300px;
 	margin: 40px auto;
-	top: 400px;
-	left: 300px;
+	color: rgb(160, 40, 60);
 }
 
 

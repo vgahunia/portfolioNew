@@ -43,9 +43,9 @@ $(document).ready(function() {
 		})
 
 		.RegisterEffect("goBack", {
-			defaultDuration: 800,
+			defaultDuration: 400,
 			calls: [
-				[ { translateX: "0px" } ]
+				[ { translateX: "0px", scale: 1 } ]
 			]
 		})
 
@@ -98,19 +98,23 @@ $(document).ready(function() {
 	   document.querySelector('.circle').classList.toggle('white');
 	}
 
+	$('#what').click(function() {
+		$('#message').velocity("goBack");
+		$('#message').html("Bye <b>world</b>!").velocity({ translateX: 50 }, "ease-in-out");
+	})
+
 	$('#why').click(function() {
+		$('#message').velocity("goBack");
 		$('#message').html("Hello <b>world</b>!");
 	})
 
-	$('#what').click(function() {
-		$('#message').html("Bye <b>world</b>!").velocity({ translateX: 500 }, "ease-out");
-	})
-
 	$('#how').click(function() {
+		$('#message').velocity("goBack");
 		$('#message').html("HowHowHow <b>world</b>!").velocity({ scale: 1.2}, "ease-in-out");
 	})
 
 	$('#where').click(function() {
+		$('#message').velocity("goBack");
 		$('#message').html("<a href='http://sinatra.mike-lucek.com/' target='_blank'>Have a look!</a>");
 	})
 
