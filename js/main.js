@@ -93,10 +93,10 @@ $(document).ready(function() {
 	   document.querySelector('.circle').classList.toggle('white');
 	}
 
-	.RegisterEffect("goBack", {
+	$.Velocity.RegisterEffect("goBack", {
 		defaultDuration: 400,
 		calls: [
-			[ { translateY: "0px", scale: 1, opacity: 0 } ]
+			[ { translateY: "0px", scale: 1 } ]
 		]
 	})
 
@@ -106,7 +106,6 @@ $(document).ready(function() {
     	$('#title').css("visibility", "visible").velocity({ scale: 1.1 }, "ease-in-out");
   	else
     	$('#title').css("visibility", "hidden").velocity({ scale: .9 }, "ease-in-out");
-		
 	})
 
 	$('#why').click(function() {

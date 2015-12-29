@@ -637,4 +637,41 @@ ul, ol {
 	padding: 5px;
 }
 
+/* LAST SLIDE */
+
+#last_copy {
+	position: absolute;
+	width: 100%;
+	top: 55%;
+	margin: 10px auto;
+	margin-bottom: 30px;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	color: rgb(255, 255, 255);
+}
+
+#last_copy p {
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+	color: black;
+	font-size: 1.1em;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#last_copy hr {
+	width: 100px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+
+#plast_copy .tech li {
+	border-right: 2px solid rgb(255, 255, 255);
+}
+
+#last_copy .tech li:last-child {
+	border-right: none;
+}
+
 
