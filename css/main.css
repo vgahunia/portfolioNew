@@ -38,44 +38,14 @@
         #menu ul li a:hover {
           color: black; }
 
-/* ========================
-					HOME
-========================= */
-#name h1 {
-  color: #f0f0f0;
-  font-size: 3em;
-  margin-bottom: 0; }
-
-#name h3 {
-  color: black;
-  font-size: 2em;
-  margin-left: 20%;
-  padding-left: 4%;
-  padding-top: 3px;
-  margin-top: 0;
-  width: 240px;
-  font-family: 'Josefin Sans', sans-serif;
-  border-top: 1px solid black;
-  text-align: right; }
-
-#name {
-  margin-top: 320px;
-  margin-left: 20px; }
-
-/* ========================
-					IMAGE
-========================== */
+/* ====================================
+					Video Background
+======================================= */
 video {
   position: absolute;
   top: 0;
   left: 0;
   z-index: -100; }
-
-.image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1; }
 
 /* =========================
 					BIO
@@ -103,12 +73,13 @@ video {
 /* ==========================
 					PORTFOLIO
 =========================== */
+#portfolio {
+  background-color: white; }
+
 #port {
-  height: 500px;
-  overflow-y: scroll;
   margin-top: 50px; }
 
-#title {
+.title {
   text-align: center;
   font-size: 1.3em;
   color: black; }
@@ -116,15 +87,18 @@ video {
 .project {
   text-align: center;
   max-width: 100%;
-  color: #f0f0f0; }
-
-.project img {
-  width: 50%;
-  opacity: .6;
-  margin-bottom: 10px; }
-
-.project img:hover {
-  opacity: 1; }
+  color: #c8c8c8; }
+  .project img {
+    width: 50%;
+    opacity: .6;
+    margin-bottom: 10px; }
+    .project img:hover {
+      opacity: 1; }
+  .project p {
+    text-align: center; }
+  .project hr {
+    width: 70%;
+    border: 1px solid black; }
 
 #window {
   width: 200px; }
@@ -153,21 +127,14 @@ video {
 
 .heading {
   font-size: 1.4em;
-  color: white; }
+  color: #c8c8c8; }
 
 .description {
   width: 60%;
   margin: auto;
   font-size: 1.4em;
-  color: white;
+  color: black;
   font-family: 'Josefin Sans', sans-serif; }
-
-.project p {
-  text-align: center; }
-
-.project hr {
-  width: 70%;
-  border: 1px solid black; }
 
 .video {
   position: relative;
