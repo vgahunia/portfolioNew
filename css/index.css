@@ -266,7 +266,7 @@ ul, ol {
 .dedo_video {
 	right: 25%;
 	width: 50%;
-	margin: 0 auto;
+	margin: 4px auto;
 	text-align: center;
 	display: block;
 }
@@ -279,7 +279,7 @@ ul, ol {
 #dedo_copy1 {
 	position: absolute;
 	width: 60%;
-	margin: 23% auto;
+	margin: 25% auto;
 	margin-bottom: 30px;
 	text-align: center;
 	font-family: 'Josefin Sans', sans-serif;
@@ -651,11 +651,12 @@ ul, ol {
 }
 
 #last_copy p {
+	font-family: 'Julius Sans One', sans-serif;
 	width: 400px;
 	margin: 0 auto;
 	text-align: center;
 	color: black;
-	font-size: 1.1em;
+	font-size: 1em;
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
@@ -666,7 +667,12 @@ ul, ol {
 	border: 1px solid black;
 }
 
-#plast_copy .tech li {
+#last_copy .tech {
+	width: 440px;
+	margin: 10px auto;
+}
+
+#last_copy .tech li {
 	border-right: 2px solid rgb(255, 255, 255);
 }
 
