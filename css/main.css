@@ -38,6 +38,27 @@
         #menu ul li a:hover {
           color: black; }
 
+#menu2 {
+  background: #7D1935;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  width: 100%;
+  margin: 0; }
+  #menu2 ul {
+    text-align: center;
+    padding-left: 0; }
+    #menu2 ul li {
+      display: inline;
+      padding: 11px;
+      padding-left: 4%;
+      padding-right: 4%;
+      text-align: center; }
+      #menu2 ul li a {
+        text-decoration: none;
+        color: #F5F3EE; }
+        #menu2 ul li a:hover {
+          color: #4A96AD; }
+
 /* ====================================
 					Video Background
 ======================================= */
@@ -80,25 +101,37 @@ video {
   margin-top: 50px; }
 
 .title {
-  text-align: center;
+  text-align: left;
   font-size: 1.3em;
   color: black; }
+  .title hr {
+    border-color: black;
+    margin-top: 0; }
+
+.heading {
+  font-size: 1.4em;
+  color: #a0a0a0;
+  text-align: center; }
+
+.description {
+  width: 100%;
+  margin: auto;
+  font-size: 1.4em;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif; }
 
 .project {
   text-align: center;
   max-width: 100%;
-  color: #c8c8c8; }
+  color: #a0a0a0;
+  padding-bottom: 20px;
+  margin-bottom: 20px; }
   .project img {
     width: 50%;
-    opacity: .6;
+    opacity: 1;
     margin-bottom: 10px; }
     .project img:hover {
-      opacity: 1; }
-  .project p {
-    text-align: center; }
-  .project hr {
-    width: 70%;
-    border: 1px solid black; }
+      opacity: .6; }
 
 #window {
   width: 200px; }
@@ -120,21 +153,13 @@ video {
 
 #tincan {
   background-color: white;
-  width: 180px;
+  width: 120px;
   padding: 10px;
   border-radius: 25px;
-  border: 1px solid black; }
+  border: 2px solid black; }
 
-.heading {
-  font-size: 1.4em;
-  color: #c8c8c8; }
-
-.description {
-  width: 60%;
-  margin: auto;
-  font-size: 1.4em;
-  color: black;
-  font-family: 'Josefin Sans', sans-serif; }
+#multimedia {
+  margin-top: 70px; }
 
 .video {
   position: relative;

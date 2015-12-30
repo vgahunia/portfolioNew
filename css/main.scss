@@ -49,6 +49,32 @@
 	}
 }
 
+#menu2 {
+	background: $maroon;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	width: 100%;
+	margin: 0;
+	ul {
+	text-align: center;
+	padding-left: 0;
+		li {
+			display: inline;
+			padding: 11px;
+			padding-left: 4%;
+			padding-right: 4%;
+			text-align: center;
+			a {
+				text-decoration: none;
+				color: $tan;
+				&:hover {
+					color: $blue;
+				}
+			}
+		}
+	}
+}
+
 
 /* ====================================
 					Video Background
@@ -93,6 +119,7 @@ video {
 					PORTFOLIO
 =========================== */
 
+
 #portfolio {
 	background-color: white;
 }
@@ -102,29 +129,42 @@ video {
 }
 
 .title {
-   text-align: center;
+   text-align: left;
    font-size: 1.3em;
    color: black;
+   hr {
+   	border-color: black;
+   	margin-top: 0;
+   }
+}
+
+.heading {
+	font-size: 1.4em;
+	color: rgb(160, 160, 160);
+	text-align: center;
+}
+
+.description {
+   width: 100%;
+   margin: auto;
+   font-size: 1.4em;
+   color: black;
+   font-family: 'Josefin Sans', sans-serif;
 }
 
 .project {
 	text-align: center;
 	max-width: 100%;
-	color: rgb(200, 200, 200);
+	color: rgb(160, 160, 160);
+	padding-bottom: 20px;
+	margin-bottom: 20px;
 	img {
 		width: 50%;
-		opacity: .6;
+		opacity: 1;
 		margin-bottom: 10px;
 		&:hover {
-			opacity: 1;
+			opacity: .6;
 		}
-	}
-	p {
-		text-align: center;
-	}
-	hr {
-		width: 70%;
-		border: 1px solid rgb(0, 0, 0);
 	}
 }
 
@@ -154,23 +194,14 @@ video {
 
 #tincan {
 	background-color: white;
-	width: 180px;
+	width: 120px;
 	padding: 10px;
 	border-radius: 25px;
-	border: 1px solid black;
+	border: 2px solid black;
 }
 
-.heading {
-	font-size: 1.4em;
-	color: rgb(200, 200, 200);
-}
-
-.description {
-   width: 60%;
-   margin: auto;
-   font-size: 1.4em;
-   color: black;
-   font-family: 'Josefin Sans', sans-serif;
+#multimedia {
+	margin-top: 70px;
 }
 
 .video {
