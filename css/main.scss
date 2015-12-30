@@ -4,7 +4,6 @@
 .container-fluid {
 	background-color: black;
 	width: 100%;
-	max-width: 1440px;
 	margin: 0 auto;
 	font-family: 'Julius Sans One', sans-serif;
 }
@@ -121,26 +120,33 @@ video {
 
 
 #portfolio {
+	background-color: $tan;
+}
+
+.tan {
 	background-color: white;
 }
 
 #port {
 	margin-top: 50px;
+	.row {
+		margin-left: 0;
+	}
 }
 
 .title {
    text-align: left;
    font-size: 1.3em;
-   color: black;
-   hr {
-   	border-color: black;
-   	margin-top: 0;
+   border-bottom: 2px solid $maroon;
+   h1 {
+   	margin-left: 30px;
+   	color: $maroon;
    }
 }
 
 .heading {
 	font-size: 1.4em;
-	color: rgb(160, 160, 160);
+	color: $maroon;
 	text-align: center;
 }
 
@@ -155,9 +161,10 @@ video {
 .project {
 	text-align: center;
 	max-width: 100%;
+	min-height: 300px;
 	color: rgb(160, 160, 160);
-	padding-bottom: 20px;
-	margin-bottom: 20px;
+	padding-bottom: 30px;
+	padding-top: 30px;
 	img {
 		width: 50%;
 		opacity: 1;
@@ -201,7 +208,9 @@ video {
 }
 
 #multimedia {
-	margin-top: 70px;
+	margin-top: 10px;
+	padding-top: 30px;
+	background-color: white;
 }
 
 .video {

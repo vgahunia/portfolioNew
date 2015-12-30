@@ -1,7 +1,6 @@
 .container-fluid {
   background-color: black;
   width: 100%;
-  max-width: 1440px;
   margin: 0 auto;
   font-family: 'Julius Sans One', sans-serif; }
 
@@ -95,22 +94,27 @@ video {
 					PORTFOLIO
 =========================== */
 #portfolio {
+  background-color: #F5F3EE; }
+
+.tan {
   background-color: white; }
 
 #port {
   margin-top: 50px; }
+  #port .row {
+    margin-left: 0; }
 
 .title {
   text-align: left;
   font-size: 1.3em;
-  color: black; }
-  .title hr {
-    border-color: black;
-    margin-top: 0; }
+  border-bottom: 2px solid #7D1935; }
+  .title h1 {
+    margin-left: 30px;
+    color: #7D1935; }
 
 .heading {
   font-size: 1.4em;
-  color: #a0a0a0;
+  color: #7D1935;
   text-align: center; }
 
 .description {
@@ -123,9 +127,10 @@ video {
 .project {
   text-align: center;
   max-width: 100%;
+  min-height: 300px;
   color: #a0a0a0;
-  padding-bottom: 20px;
-  margin-bottom: 20px; }
+  padding-bottom: 30px;
+  padding-top: 30px; }
   .project img {
     width: 50%;
     opacity: 1;
@@ -159,7 +164,9 @@ video {
   border: 2px solid black; }
 
 #multimedia {
-  margin-top: 70px; }
+  margin-top: 10px;
+  padding-top: 30px;
+  background-color: white; }
 
 .video {
   position: relative;
