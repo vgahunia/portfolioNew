@@ -5,12 +5,12 @@ $(window).load(function() {
 
 $(document).ready(function() {
 
-	$('#menutwo li a').hover(function() {
-		$(this).parent().addClass("slideDown");
-})
+	$('#menutwo li').hover(function() {
+		$(this).addClass("slideDown", 400, "swing" );
+	})
 
-	$('#menutwo li a').mouseout(function() {
-		$(this).parent().removeClass("slideDown");
+	$('#menutwo li').mouseout(function() {
+		$(this).removeClass("slideDown", 400, "swing");
 	})
 
 })
