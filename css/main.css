@@ -14,42 +14,45 @@
   background: url("../images/loading.gif") 50% 50% no-repeat black; }
 
 /* ==============================
-				MENU - NAVBAR @ TOP
+				MENU - NAVBAR
 ================================ */
+.menu-container {
+  margin-top: 25px; }
+
 #menu {
   background: rgba(0, 0, 0, 0.4);
   padding-top: 15px;
   padding-bottom: 10px;
   width: 100%;
-  margin: 0; }
+  margin: 0;
+  border-bottom: 2px solid #323232;
+  border-top: 4px solid #323232; }
   #menu ul {
     text-align: center;
     padding-left: 0; }
     #menu ul li {
       display: inline;
-      padding: 11px;
+      padding-top: 17px;
+      padding-bottom: 23px;
       padding-left: 4%;
       padding-right: 4%;
       text-align: center; }
-      #menu ul li a {
-        text-decoration: none;
-        color: #f0f0f0; }
-        #menu ul li a:hover {
-          color: black; }
+    #menu ul a {
+      text-decoration: none;
+      color: #f0f0f0; }
+      #menu ul a:hover {
+        color: #323232; }
 
-.menu-container {
-  margin-top: 25px; }
-
-.menu2 {
+#menu2 {
   background: white;
   border-bottom: 2px solid #7D1935;
-  border-top: 2px solid #7D1935; }
-  .menu2 ul {
+  border-top: 4px solid #7D1935; }
+  #menu2 ul {
     text-align: center;
     padding-left: 0;
     padding-top: 15px;
     padding-bottom: 10px; }
-    .menu2 ul li {
+    #menu2 ul li {
       width: 100px;
       display: inline;
       padding-top: 17px;
@@ -57,11 +60,34 @@
       padding-left: 4%;
       padding-right: 4%;
       text-align: center; }
-    .menu2 ul a {
+    #menu2 ul a {
       text-decoration: none;
       color: #7D1935; }
-      .menu2 ul a:hover {
+      #menu2 ul a:hover {
         color: #F5F3EE; }
+
+#menu3 {
+  background: rgba(0, 0, 0, 0.3);
+  border-bottom: 2px solid powderblue;
+  border-top: 4px solid powderblue; }
+  #menu3 ul {
+    text-align: center;
+    padding-left: 0;
+    padding-top: 15px;
+    padding-bottom: 10px; }
+    #menu3 ul li {
+      width: 100px;
+      display: inline;
+      padding-top: 17px;
+      padding-bottom: 23px;
+      padding-left: 4%;
+      padding-right: 4%;
+      text-align: center; }
+    #menu3 ul a {
+      text-decoration: none;
+      color: white; }
+      #menu3 ul a:hover {
+        color: powderblue; }
 
 .slideDown {
   background-color: #4A96AD; }
@@ -69,6 +95,16 @@
     color: #F5F3EE !important; }
     .slideDown a:hover {
       color: white !important; }
+
+.slideDown2 {
+  background-color: #bebebe; }
+  .slideDown2 a {
+    color: #323232 !important; }
+    .slideDown2 a:hover {
+      color: #323232 !important; }
+
+.slideDown3 {
+  background-color: rgba(139, 69, 19, 0.7); }
 
 /* ====================================
 					Video Background
