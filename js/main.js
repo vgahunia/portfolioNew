@@ -28,20 +28,6 @@ $(document).ready(function() {
 			]
 		})
 
-		.RegisterEffect("goLeft", {
-			defaultDuration: 400,
-			calls: [
-				[ { translateX: "-200px" } ]
-			]
-		})
-
-		.RegisterEffect("goRight", {
-			defaultDuration: 800,
-			calls: [
-				[ { translateX: "300px" } ]
-			]
-		})
-
 	$(".vel-button").mouseover(function() {
 		$(this).velocity("shadowIn");
 	})
