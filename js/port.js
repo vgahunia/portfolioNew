@@ -5,11 +5,11 @@ $(window).load(function() {
 
 $(document).ready(function() {
 
-	$('#menutwo li').hover(function() {
+	$('.menu-anim li').hover(function() {
 		$(this).addClass("slideDown", 400, "swing" );
 	})
 
-	$('#menutwo li').mouseout(function() {
+	$('.menu-anim li').mouseout(function() {
 		$(this).removeClass("slideDown", 400, "swing");
 	})
 

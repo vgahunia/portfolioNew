@@ -48,10 +48,14 @@
 	}
 }
 
+.menu-container {
+	margin-top: 25px;
+}
+
 .menu2 {
 	background: white;
-	// margin: 0;
 	border-bottom: 2px solid $maroon;
+	border-top: 2px solid $maroon;
 	ul {
 	text-align: center;
 	padding-left: 0;
@@ -60,7 +64,7 @@
 		li {
 			width: 100px;
 			display: inline;
-			padding-top: 20px;
+			padding-top: 17px;
 			padding-bottom: 23px;
 			padding-left: 4%;
 			padding-right: 4%;

@@ -31,10 +31,11 @@ ul, ol {
 ---- MENU ---------------------------------------
 ======================================================== */
 
+
 #menu {
 	font-family: 'Julius Sans One', sans-serif;
 	position: absolute;
-	top: 0;
+	top: 25px;
 	left: 0;
   background: rgba(0, 0, 0, 0.4);
   padding-top: 15px;
@@ -42,6 +43,8 @@ ul, ol {
   width: 100%;
   margin: 0;
   z-index: 100;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
 }
   
 #menu ul {
@@ -52,25 +55,36 @@ ul, ol {
     
 #menu ul li {
 	display: inline;
-	padding: 10px;
+	padding-top: 16px;
+	padding-bottom: 19px;
 	padding-left: 4%;
 	padding-right: 4%;
 	text-align: center; 
 }
   	
-#menu ul li a {
+#menu ul a {
   text-decoration: none;
   color: white;
   font-size: .9em;
 }
 
-#menu ul li a:hover {
+#menu ul a:hover {
   color: black; 
 }
 
+.slideDown {
+	background-color: white;
+	a {
+		color: black !important;
+		&:hover {
+			color: white !important;
+		}
+	}
+}
+
 /*=======================================================
----- SKROLLR SLIDES ---------------------------------------
-======================================================== */
+---- SKROLLR SLIDES -----------------------------------
+======================================================= */
 
 
 #skrollr-body {

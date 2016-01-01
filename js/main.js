@@ -110,5 +110,12 @@ $(document).ready(function() {
 		$('#message').addClass("tincan_why_where").html("<p><a href='http://sinatra.mike-lucek.com/' target='_blank'>Click Here</a> to have a look.</p>").velocity({ scale: 1.2, translateY: 30 }, "ease-in-out");
 	})
 
+	$('.menu-anim li').hover(function() {
+		$(this).addClass("slideDown", 400, "swing" );
+	})
+
+	$('.menu-anim li').mouseout(function() {
+		$(this).removeClass("slideDown", 400, "swing");
+	})
 
 })
