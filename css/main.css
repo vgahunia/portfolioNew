@@ -20,7 +20,7 @@
   margin-top: 25px; }
 
 #menu {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.5);
   padding-top: 15px;
   padding-bottom: 10px;
   width: 100%;
@@ -91,17 +91,9 @@
 
 .slideDown {
   background-color: #4A96AD; }
-  .slideDown a {
-    color: #F5F3EE !important; }
-    .slideDown a:hover {
-      color: white !important; }
 
 .slideDown2 {
   background-color: #bebebe; }
-  .slideDown2 a {
-    color: #323232 !important; }
-    .slideDown2 a:hover {
-      color: #323232 !important; }
 
 .slideDown3 {
   background-color: rgba(139, 69, 19, 0.7); }
@@ -135,7 +127,7 @@ video {
 .bio hr {
   margin: 5px;
   padding: 0;
-  border: 1px dotted gainsboro;
+  border: 1px dotted powderblue;
   width: 100px; }
 
 /* ==========================
