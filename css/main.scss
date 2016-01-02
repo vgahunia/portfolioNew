@@ -207,6 +207,15 @@ video {
 	}
 }
 
+.box {
+	height: 300px;
+	overflow: hidden;
+	background-color: white;
+	border: 1px solid $maroon;
+	border-radius: 20px;
+	padding: 5px;
+}
+
 .title {
    text-align: left;
    margin-left: 2%;
@@ -227,7 +236,7 @@ video {
 }
 
 .description {
-	text-align: right;
+	text-align: center;
 	width: 100%;
 	margin: auto;
 	font-size: 1.4em;
@@ -237,24 +246,26 @@ video {
 
 .project {
 	text-align: center;
-	max-width: 100%;
-	min-height: 300px;
-	color: rgb(160, 160, 160);
-	padding-bottom: 30px;
-	padding-top: 30px;
-	border-bottom: 1px dotted $blue;
+	padding-bottom: 20px;
+	padding-top: 20px;
 	.image {
-		overflow: hidden;
-		height: 300px;
-		width: 400px;
-	}
-	img {
 		opacity: 1;
 		margin-bottom: 10px;
 		&:hover {
 			opacity: .6;
 		}
 	}
+}
+
+.project_divider {
+		border: 1px solid $blue;
+	}
+
+#dogear {
+	position: relative;
+	left: -120px;
+	top: -30px;
+	transform: rotate(-35deg);
 }
 
 #window {

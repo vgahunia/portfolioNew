@@ -29,4 +29,7 @@ $(document).ready(function() {
 		$(this).removeClass("slideDown3", 400, "swing");
 	})
 
+	//DogEar image background
+	$('#dogear').parents().eq(2).css("background-color", "rgb(23, 127, 117)");
+
 })

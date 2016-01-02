@@ -141,6 +141,14 @@ video {
   #port .row {
     margin-left: 0; }
 
+.box {
+  height: 300px;
+  overflow: hidden;
+  background-color: white;
+  border: 1px solid #7D1935;
+  border-radius: 20px;
+  padding: 5px; }
+
 .title {
   text-align: left;
   margin-left: 2%;
@@ -158,7 +166,7 @@ video {
   font-family: 'Julius Sans One', sans-serif; }
 
 .description {
-  text-align: right;
+  text-align: center;
   width: 100%;
   margin: auto;
   font-size: 1.4em;
@@ -167,21 +175,22 @@ video {
 
 .project {
   text-align: center;
-  max-width: 100%;
-  min-height: 300px;
-  color: #a0a0a0;
-  padding-bottom: 30px;
-  padding-top: 30px;
-  border-bottom: 1px dotted #4A96AD; }
+  padding-bottom: 20px;
+  padding-top: 20px; }
   .project .image {
-    overflow: hidden;
-    height: 300px;
-    width: 400px; }
-  .project img {
     opacity: 1;
     margin-bottom: 10px; }
-    .project img:hover {
+    .project .image:hover {
       opacity: .6; }
+
+.project_divider {
+  border: 1px solid #4A96AD; }
+
+#dogear {
+  position: relative;
+  left: -120px;
+  top: -30px;
+  transform: rotate(-35deg); }
 
 #window {
   width: 200px; }
