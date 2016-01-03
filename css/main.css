@@ -146,8 +146,18 @@ video {
   overflow: hidden;
   background-color: white;
   border: 1px solid #7D1935;
-  border-radius: 20px;
   padding: 5px; }
+
+.box-video {
+  height: 370px;
+  border: 1px solid #7D1935;
+  background-color: white; }
+
+.corner-left {
+  border-radius: 25px 0 0 25px; }
+
+.corner-right {
+  border-radius: 0 25px 25px 0; }
 
 .title {
   text-align: left;
@@ -178,37 +188,20 @@ video {
   padding-bottom: 20px;
   padding-top: 20px; }
   .project .image {
-    opacity: 1;
-    margin-bottom: 10px; }
+    opacity: 1; }
     .project .image:hover {
       opacity: .6; }
 
 .project_divider {
-  border: 1px solid #4A96AD; }
+  width: 30%;
+  margin: 0 auto;
+  border: 3px solid #7D1935; }
 
 #dogear {
   position: relative;
   left: -120px;
   top: -30px;
   transform: rotate(-35deg); }
-
-#window {
-  width: 200px; }
-
-#blog {
-  width: 240px; }
-
-#posthaste {
-  width: 240px; }
-
-#dedo {
-  width: 240px; }
-
-#bela_img {
-  width: 240px; }
-
-#arboretum_img {
-  width: 240px; }
 
 #tincan {
   background-color: white;
@@ -228,10 +221,14 @@ video {
   /* 16:9 */
   padding-top: 25px;
   height: 0;
-  margin-top: 25px;
-  margin-left: 18%;
-  margin-right: 18%;
+  margin-top: 20px;
+  margin-left: 2%;
+  margin-right: 2%;
   margin-bottom: 0; }
+
+.blue-bkg {
+  background-color: #4A96AD;
+  border: 1px solid #7D1935; }
 
 .video iframe {
   position: absolute;
