@@ -112,27 +112,27 @@ ul, ol {
  }
 
  #slide_blue {
- 	background: rgb(0, 0, 0) url('../images/blue.png') center center no-repeat;
+ 	background: rgb(0, 0, 0) url('../images/blue2.png') center center no-repeat;
  	z-index: 6;
  }
 
  #slide_green {
- 	background: rgb(0, 0, 0) url('../images/green.png') center center no-repeat;
+ 	background: rgb(23, 127, 117) center center no-repeat;
  	z-index: 5;
  }
 
  #slide_yellow {
- 	background: rgb(0, 0, 0) url('../images/yellow.png') center center no-repeat;
+ 	background: rgb(255, 218, 0) center center no-repeat;
  	z-index: 4;
  }
 
 #slide_red {
- 	background: rgb(0, 0, 0) url('../images/red.png') center center no-repeat;
+ 	background: rgb(190, 30, 45) center center no-repeat;
  	z-index: 3;
  }
 
  #slide_white {
- 	background: rgb(0, 0, 0) url('../images/white2.png') center center no-repeat;
+ 	background: rgb(255, 255, 255) center center no-repeat;
  	z-index: 2;
  }
 
@@ -341,7 +341,7 @@ ul, ol {
 #dedo_container {
 	width: 300px;
 	height: 150px;
-	margin: 450px auto;
+	margin: 500px auto;
 }
 
 #dedo_button {
@@ -505,7 +505,11 @@ ul, ol {
 }
 
 #posthaste_img {
-	max-width: 840px;
+	max-width: 760px;
+	background-color: rgb(240, 120, 30);
+	border-radius: 140px;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 /* TINCAN  */
