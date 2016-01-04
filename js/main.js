@@ -5,6 +5,23 @@ $(window).load(function() {
 
 $(document).ready(function() {
 
+	function setHeight() {
+    windowHeight = $(window).height();
+    $('.scroll-down').css('top', windowHeight - 60);
+  };
+  setHeight();
+  
+  $(window).resize(function() {
+    setHeight();
+  });
+
+  function pulse1(){
+	  $('.scroll-down').velocity({ scale: 1.05 }, "ease-in-out");
+		$('.scroll-down').velocity("reverse", {duration: 1500});
+	}
+
+	var scrollDown = setInterval(pulse1, 500);
+
 // DOGEAR
 	$("#dogear_img").hover(function() {
 		$(this).attr("src", "images/dogear_hover.png")
