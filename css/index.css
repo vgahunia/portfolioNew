@@ -112,7 +112,7 @@ ul, ol {
  }
 
  #slide_blue {
- 	background: rgb(255, 255, 255) url('../images/blue.png') center center no-repeat;
+ 	background: rgb(0, 0, 0) url('../images/blue.png') center center no-repeat;
  	z-index: 6;
  }
 
@@ -142,7 +142,7 @@ ul, ol {
  }
 
  #slide_blue2 {
- 	background: rgb(255, 255, 255) url('../images/blue.png') center center no-repeat;
+ 	background: rgb(0, 0, 0) url('../images/blue.png') center center no-repeat;
  	z-index: 0;
  }
 

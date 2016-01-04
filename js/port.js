@@ -29,7 +29,19 @@ $(document).ready(function() {
 		$(this).removeClass("slideDown3", 400, "swing");
 	})
 
-	//DogEar image background
+	//image backgrounds
 	$('#dogear').parents().eq(2).css("background-color", "rgb(23, 127, 117)");
+
+	//set box-video height
+	function setHeight() {
+    boxHeight = $('.box-video').height();
+    vidHeight = $('.video').parent().height();
+    $('.box-video').css('height', vidHeight +2);
+  };
+  setHeight();
+  
+  $(window).resize(function() {
+    setHeight();
+  });
 
 })
