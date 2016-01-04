@@ -277,6 +277,8 @@ video {
 	text-align: center;
 	padding-bottom: 20px;
 	padding-top: 20px;
+	max-width:1960px;
+	margin: 0 auto;
 	.image {
 		opacity: 1;
 		&:hover {
@@ -309,15 +311,14 @@ video {
 
 #posthaste {
 	position: relative;
-	left: -360px;
+	left: -300px;
 	top: -20px;
 }
 
 #dedo {
 	position: relative;
-	left: -40px;
+	left: -20px;
 	top: -20px;
-	width: 480px;
 }
 
 #tincan1 {
