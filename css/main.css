@@ -159,21 +159,32 @@ video {
 .corner-right {
   border-radius: 0 25px 25px 0; }
 
+.border-blue-right {
+  border-right: 6px solid #4A96AD; }
+
+.border-maroon-right {
+  border-right: 6px solid #7D1935; }
+
+.border-maroon-left {
+  border-left: 6px solid #7D1935; }
+
 .title {
-  text-align: left;
-  margin-left: 2%;
+  text-align: center;
+  margin: 20px auto;
   font-size: 1.3em;
   width: 75%;
   border-bottom: 1px solid #7D1935; }
   .title h1 {
-    margin-left: 30px;
     color: #7D1935; }
+  .title :last-child {
+    margin-top: 50px; }
 
 .heading {
   font-size: 1.4em;
   color: #4A96AD;
   text-align: center;
-  font-family: 'Julius Sans One', sans-serif; }
+  font-family: 'Julius Sans One', sans-serif;
+  margin-top: 15px; }
 
 .description {
   text-align: center;
@@ -193,15 +204,52 @@ video {
       opacity: .6; }
 
 .project_divider {
-  width: 30%;
+  width: 70%;
   margin: 0 auto;
-  border: 3px solid #7D1935; }
+  border: 3px solid #7D1935;
+  margin-top: 40px;
+  margin-bottom: 100px; }
 
 #dogear {
   position: relative;
-  left: -120px;
+  left: -90px;
   top: -30px;
   transform: rotate(-35deg); }
+
+#blog {
+  position: relative;
+  left: -80px;
+  top: -80px;
+  transform: rotate(15deg); }
+
+#posthaste {
+  position: relative;
+  left: -440px;
+  top: -20px; }
+
+#dedo {
+  position: relative;
+  left: -40px;
+  top: -20px;
+  width: 480px; }
+
+#tincan1 {
+  position: relative;
+  left: -40px;
+  top: -20px;
+  width: 600px; }
+
+#window {
+  position: relative;
+  left: -40px;
+  top: -20px;
+  width: 600px; }
+
+#bela_img {
+  position: relative;
+  left: -40px;
+  top: -20px;
+  width: 600px; }
 
 #tincan {
   background-color: white;
