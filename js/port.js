@@ -4,29 +4,29 @@ $(window).load(function() {
 })
 
 $(document).ready(function() {
-
+	//Portfolio menu
 	$('.menu-anim li').hover(function() {
-		$(this).addClass("slideDown", 400, "swing" );
+		$(this).addClass("slideDown", 500, "swing" );
 	})
 
 	$('.menu-anim li').mouseout(function() {
-		$(this).removeClass("slideDown", 400, "swing");
+		$(this).removeClass("slideDown", 500, "swing");
 	})
-
+	//Bio Menu
 	$('.menu-anim2 li').hover(function() {
-		$(this).addClass("slideDown2", 400, "swing" );
+		$(this).addClass("slideDown2", 500, "swing" );
 	})
 
 	$('.menu-anim2 li').mouseout(function() {
-		$(this).removeClass("slideDown2", 400, "swing");
+		$(this).removeClass("slideDown2", 300, "swing");
 	})
-
+	//Contact menu
 	$('.menu-anim3 li').hover(function() {
-		$(this).addClass("slideDown3", 400, "swing" );
+		$(this).addClass("slideDown3", 500, "swing" );
 	})
 
 	$('.menu-anim3 li').mouseout(function() {
-		$(this).removeClass("slideDown3", 400, "swing");
+		$(this).removeClass("slideDown3", 300, "swing");
 	})
 
 	//image backgrounds

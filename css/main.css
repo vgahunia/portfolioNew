@@ -114,21 +114,19 @@ video {
   background-color: #b4b4b4; }
 
 .bio {
-  margin-top: 55%;
-  font-size: 1.4em;
+  margin-top: 70%;
+  font-size: 1.1em;
   color: white;
   font-family: 'Josefin Sans', sans-serif;
   padding-left: 0; }
-
-.bio li {
-  margin: 5px;
-  list-style-type: none; }
-
-.bio hr {
-  margin: 5px;
-  padding: 0;
-  border: 1px dotted powderblue;
-  width: 100px; }
+  .bio li {
+    margin: 5px;
+    list-style-type: none; }
+  .bio hr {
+    margin: 0;
+    padding: 0;
+    border: 1px solid white;
+    width: 300px; }
 
 /* ==========================
 					PORTFOLIO
@@ -336,7 +334,26 @@ video {
   #name {
     width: 300px;
     margin: 10 auto;
-    margin-top: 50%; } }
+    margin-top: 50%; }
+
+  #bio-page {
+    background-color: powderblue; }
+    #bio-page video {
+      top: 100px; }
+
+  .bio {
+    margin-top: 70%;
+    margin-right: 30px;
+    margin-left: 30px; }
+    .bio li {
+      text-align: center;
+      color: saddlebrown;
+      margin: 0; }
+    .bio hr {
+      margin: 4px auto;
+      padding: 0;
+      border: 1px solid white;
+      width: 100px; } }
 @media only screen and (max-device-width: 640px) {
   #name h1 {
     font-size: 2.3em;

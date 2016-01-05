@@ -13,6 +13,15 @@ body {
 	height: 13500px; 
 }
 
+ul, ol {
+	padding-left: 0;
+}
+
+
+/*=======================================================
+---- MENU ---------------------------------------
+======================================================== */
+
 .loader {
 	position: fixed;
 	left: 0px;
@@ -22,15 +31,6 @@ body {
 	z-index: 9999;
 	background: url('../images/loading.gif') 50% 50% no-repeat rgb(0, 0, 0);
 }
-
-ul, ol {
-	padding-left: 0;
-}
-
-/*=======================================================
----- MENU ---------------------------------------
-======================================================== */
-
 
 #menu {
 	font-family: 'Julius Sans One', sans-serif;
@@ -112,7 +112,7 @@ ul, ol {
  }
 
  #slide_blue {
- 	background: rgb(0, 0, 0) url('../images/blue2.png') center center no-repeat;
+ 	background: rgb(0, 0, 0) url('../images/blue.png') center center no-repeat;
  	z-index: 6;
  }
 

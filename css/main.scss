@@ -145,23 +145,21 @@ video {
 }
 
 .bio {
-	margin-top: 55%;
-	font-size: 1.4em;
+	margin-top: 70%;
+	font-size: 1.1em;
 	color: white;
 	font-family: 'Josefin Sans', sans-serif;
 	padding-left: 0;
-}
-
-.bio li {
-	margin: 5px;
-	list-style-type: none;
-}
-
-.bio hr {
-	margin: 5px;
-	padding: 0;
-	border: 1px dotted $lt_blue;
-	width: 100px;
+	li {
+		margin: 5px;
+		list-style-type: none;
+	}
+	hr {
+		margin: 0;
+		padding: 0;
+		border: 1px solid white;
+		width: 300px;
+	}
 }
 
 /* ==========================
@@ -415,6 +413,30 @@ video {
 		width: 300px;
 		margin: 10 auto;
 		margin-top: 50%;
+	}
+
+	#bio-page {
+		background-color: $lt_blue; 
+		video {
+			top: 100px;
+		}
+	}
+
+	.bio {
+		margin-top: 70%;
+		margin-right: 30px;
+		margin-left: 30px;
+		li {
+			text-align: center;
+			color: $brown;
+			margin: 0;
+		}
+		hr {
+			margin: 4px auto;
+			padding: 0;
+			border: 1px solid white;
+			width: 100px;
+		}
 	}
 
 }

@@ -4,7 +4,7 @@ $(window).load(function() {
 })
 
 $(document).ready(function() {
-
+	//sets height for the scroll down indicator on top slide
 	function setHeight() {
     windowHeight = $(window).height();
     $('.scroll-down').css('top', windowHeight - 60);
@@ -16,7 +16,7 @@ $(document).ready(function() {
   });
 
   function pulse1(){
-	  $('.scroll-down').velocity({ scale: 1.05 }, "ease-in-out");
+	  $('.scroll-down').velocity({ scale: 1.1 }, "ease-in-out");
 		$('.scroll-down').velocity("reverse", {duration: 1500});
 	}
 
@@ -127,12 +127,13 @@ $(document).ready(function() {
 		$('#message').addClass("tincan_why_where").html("<p><a href='http://sinatra.mike-lucek.com/' target='_blank'>Click Here</a> to have a look.</p>").velocity({ scale: 1.2, translateY: 30 }, "ease-in-out");
 	})
 
+	//Menu animation
 	$('.menu-anim li').hover(function() {
-		$(this).addClass("slideDown", 400, "swing" );
+		$(this).addClass("slideDown", 500, "swing" );
 	})
 
 	$('.menu-anim li').mouseout(function() {
-		$(this).removeClass("slideDown", 400, "swing");
+		$(this).removeClass("slideDown", 300, "swing");
 	})
 
 })
