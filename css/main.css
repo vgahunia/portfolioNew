@@ -111,7 +111,7 @@ video {
 					BIO
 ========================== */
 #bio-page {
-  background-color: #b4b4b4; }
+  background-color: powderblue; }
 
 .bio {
   margin-top: 70%;
@@ -123,10 +123,12 @@ video {
     margin: 5px;
     list-style-type: none; }
   .bio hr {
-    margin: 0;
+    margin-left: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
     padding: 0;
-    border: 1px solid white;
-    width: 300px; }
+    border: 1px dotted powderblue;
+    width: 50px; }
 
 /* ==========================
 					PORTFOLIO
@@ -317,6 +319,20 @@ video {
 /* ======================
 				MEDIA QUERIES
 ======================== */
+@media only screen and (max-width: 1060px) {
+  .bio {
+    margin-top: 55%;
+    margin-right: 30px;
+    margin-left: 30px; }
+    .bio li {
+      text-align: center;
+      color: saddlebrown;
+      margin: 0; }
+    .bio hr {
+      margin: 10px auto;
+      padding: 0;
+      border: 1px solid white;
+      width: 100px; } }
 @media only screen and (max-width: 640px) {
   #name h1 {
     font-size: 2.3em;
@@ -350,7 +366,7 @@ video {
       color: saddlebrown;
       margin: 0; }
     .bio hr {
-      margin: 4px auto;
+      margin: 10px auto;
       padding: 0;
       border: 1px solid white;
       width: 100px; } }
@@ -371,6 +387,20 @@ video {
   #name {
     width: 300px;
     margin: 10 auto;
-    margin-top: 50%; } }
+    margin-top: 50%; }
+
+  .bio {
+    margin-top: 70%;
+    margin-right: 30px;
+    margin-left: 30px; }
+    .bio li {
+      text-align: center;
+      color: saddlebrown;
+      margin: 0; }
+    .bio hr {
+      margin: 10px auto;
+      padding: 0;
+      border: 1px solid white;
+      width: 100px; } }
 
 /*# sourceMappingURL=main.css.map */

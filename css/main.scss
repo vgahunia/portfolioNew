@@ -141,7 +141,7 @@ video {
 ========================== */
 
 #bio-page {
-	background-color: rgb(180, 180, 180);
+	background-color: $lt_blue;
 }
 
 .bio {
@@ -155,10 +155,12 @@ video {
 		list-style-type: none;
 	}
 	hr {
-		margin: 0;
+		margin-left: 15px;
+		margin-top: 0;
+		margin-bottom: 0;
 		padding: 0;
-		border: 1px solid white;
-		width: 300px;
+		border: 1px dotted $lt_blue;
+		width: 50px;
 	}
 }
 
@@ -391,6 +393,27 @@ video {
 				MEDIA QUERIES
 ======================== */
 
+@media only screen and (max-width: 1060px) {
+
+	.bio {
+		margin-top: 55%;
+		margin-right: 30px;
+		margin-left: 30px;
+		li {
+			text-align: center;
+			color: $brown;
+			margin: 0;
+		}
+		hr {
+			margin: 10px auto;
+			padding: 0;
+			border: 1px solid white;
+			width: 100px;
+		}
+	}
+
+}
+
 
 @media only screen and (max-width: 640px) {
   
@@ -432,7 +455,7 @@ video {
 			margin: 0;
 		}
 		hr {
-			margin: 4px auto;
+			margin: 10px auto;
 			padding: 0;
 			border: 1px solid white;
 			width: 100px;
@@ -462,6 +485,23 @@ video {
 		width: 300px;
 		margin: 10 auto;
 		margin-top: 50%;
+	}
+
+	.bio {
+		margin-top: 70%;
+		margin-right: 30px;
+		margin-left: 30px;
+		li {
+			text-align: center;
+			color: $brown;
+			margin: 0;
+		}
+		hr {
+			margin: 10px auto;
+			padding: 0;
+			border: 1px solid white;
+			width: 100px;
+		}
 	}
 
 }
