@@ -293,7 +293,8 @@ video {
 .contact {
   margin: 10%;
   border-bottom: 1px solid black;
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  color: white; }
 
 #name_contact {
   text-align: center; }
@@ -319,7 +320,7 @@ video {
 /* ======================
 				MEDIA QUERIES
 ======================== */
-@media only screen and (max-width: 1060px) {
+@media only screen and (max-width: 960px) {
   .bio {
     margin-top: 55%;
     margin-right: 30px;
