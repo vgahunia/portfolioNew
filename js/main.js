@@ -15,12 +15,12 @@ $(document).ready(function() {
     setHeight();
   });
 
-  function pulse1(){
-	  $('.scroll-down').velocity({ scale: 1.1 }, "ease-in-out");
-		$('.scroll-down').velocity("reverse", {duration: 1500});
-	}
+ //  function pulse1(){
+	//   $('.scroll-down').velocity({ scale: 1.1 }, "ease-in-out");
+	// 	$('.scroll-down').velocity("reverse", {duration: 1500});
+	// }
 
-	var scrollDown = setInterval(pulse1, 500);
+	// var scrollDown = setInterval(pulse1, 500);
 
 // DOGEAR
 	$("#dogear_img").hover(function() {
@@ -69,15 +69,15 @@ $(document).ready(function() {
 
 // POSTHASTE
 	$("#posthaste_img").hover(function() {
-		$(this).attr("src", "images/posthaste2.png");
-		$(this).css("background-color", "white");
+		$(this).attr("src", "images/posthaste1.png");
+		$(this).css("background-color", "rgb(240, 120, 30)");
 		$(this).css("border-radius", "140px");
 		$(this).css("padding-left", "40px");
 		$(this).css("padding-right", "40px");
 	})
 	$("#posthaste_img").mouseout(function() {
-		$(this).attr("src", "images/posthaste1.png");
-		$(this).css("background-color", "rgb(240, 120, 30)");
+		$(this).attr("src", "images/posthaste2.png");
+		$(this).css("background-color", "white");
 	})
 
 
