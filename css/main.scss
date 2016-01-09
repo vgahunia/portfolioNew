@@ -215,6 +215,33 @@ video {
 	overflow: scroll;
 }
 
+.click {
+	position: absolute;
+	top: 80%;
+	left: 45%;
+	font-size: .8em;
+	color: $blue;
+	padding: 10px;
+	background-color: $tan;
+	border-radius: 50%;
+	width: 70px;
+	margin: 0 auto;
+	border: 1px solid $maroon;
+	&:hover {
+		background-color: $blue;
+		color: $tan;
+		text-decoration: none;
+	}
+}
+
+.descrip-divider {
+	position: absolute;
+	top: 70%;
+	left: 10%;
+	width: 80%;
+	border: 1px dotted $tan;
+}
+
 .corner-left {
 	border-radius: 25px 0 0 25px;
 }
@@ -264,6 +291,12 @@ video {
 	font-size: 1.4em;
 	color: $maroon;
 	font-family: 'Josefin Sans', sans-serif;
+	a {
+		text-decoration: none;
+		&:hover {
+			text-decoration: none;
+		}
+	}
 }
 
 .project {
@@ -272,12 +305,6 @@ video {
 	padding-top: 20px;
 	max-width:1960px;
 	margin: 0 auto;
-	.image {
-		opacity: 1;
-		&:hover {
-			opacity: .6;
-		}
-	}
 }
 
 .project_divider {

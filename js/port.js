@@ -30,7 +30,7 @@ $(document).ready(function() {
 	})
 
 	//image backgrounds
-	$('#dogear').parents().eq(2).css("background-color", "rgb(23, 127, 117)");
+	$('#dogear').parents().eq(1).css("background-color", "rgb(23, 127, 117)");
 
 	//set box-video height
 	function setHeight() {

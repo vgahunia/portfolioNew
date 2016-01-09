@@ -154,6 +154,30 @@ video {
   background-color: white;
   overflow: scroll; }
 
+.click {
+  position: absolute;
+  top: 80%;
+  left: 45%;
+  font-size: .8em;
+  color: #4A96AD;
+  padding: 10px;
+  background-color: #F5F3EE;
+  border-radius: 50%;
+  width: 70px;
+  margin: 0 auto;
+  border: 1px solid #7D1935; }
+  .click:hover {
+    background-color: #4A96AD;
+    color: #F5F3EE;
+    text-decoration: none; }
+
+.descrip-divider {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  width: 80%;
+  border: 1px dotted #F5F3EE; }
+
 .corner-left {
   border-radius: 25px 0 0 25px; }
 
@@ -194,6 +218,10 @@ video {
   font-size: 1.4em;
   color: #7D1935;
   font-family: 'Josefin Sans', sans-serif; }
+  .description a {
+    text-decoration: none; }
+    .description a:hover {
+      text-decoration: none; }
 
 .project {
   text-align: center;
@@ -201,10 +229,6 @@ video {
   padding-top: 20px;
   max-width: 1960px;
   margin: 0 auto; }
-  .project .image {
-    opacity: 1; }
-    .project .image:hover {
-      opacity: .6; }
 
 .project_divider {
   width: 70%;
