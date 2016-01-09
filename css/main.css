@@ -150,20 +150,42 @@ video {
 
 .box-video {
   height: 370px;
-  border: 1px solid #7D1935;
+  border: 1px solid #4A96AD;
   background-color: white;
   overflow: scroll; }
 
+.tech {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #4A96AD;
+  padding-left: 0;
+  width: 80%;
+  margin: 20px auto;
+  border-top: 1px solid #4A96AD;
+  border-bottom: 1px solid #4A96AD; }
+
+.tech li {
+  display: inline;
+  text-align: center;
+  font-size: .7em;
+  padding-right: 10px;
+  padding-left: 5px;
+  border-right: 2px solid #4A96AD; }
+
+.tech li:last-child {
+  border: none; }
+
 .click {
   position: absolute;
-  top: 80%;
-  left: 45%;
+  top: 82%;
+  left: 40%;
   font-size: .8em;
   color: #4A96AD;
   padding: 10px;
+  padding-top: 4px;
+  padding-bottom: 3px;
   background-color: #F5F3EE;
-  border-radius: 50%;
-  width: 70px;
+  border-radius: 8px;
+  width: 20%;
   margin: 0 auto;
   border: 1px solid #7D1935; }
   .click:hover {
@@ -179,16 +201,19 @@ video {
   border: 1px dotted #F5F3EE; }
 
 .corner-left {
-  border-radius: 25px 0 0 25px; }
+  border-radius: 25px 0 0 25px;
+  border-bottom: 6px solid #7D1935; }
 
 .corner-right {
   border-radius: 0 25px 25px 0; }
 
 .border-blue-right {
-  border-right: 6px solid #4A96AD; }
+  border-right: 6px solid #4A96AD;
+  border-bottom: 6px solid #4A96AD; }
 
 .border-maroon-right {
-  border-right: 6px solid #7D1935; }
+  border-right: 6px solid #7D1935;
+  border-bottom: 6px solid #7D1935; }
 
 .border-maroon-left {
   border-left: 6px solid #7D1935; }
@@ -206,7 +231,7 @@ video {
 
 .heading {
   font-size: 1.4em;
-  color: #4A96AD;
+  color: black;
   text-align: center;
   font-family: 'Julius Sans One', sans-serif;
   margin-top: 15px; }
@@ -302,7 +327,7 @@ video {
 
 .blue-bkg {
   background-color: #4A96AD;
-  border: 1px solid #7D1935; }
+  border: 1px solid #4A96AD; }
 
 .video iframe {
   position: absolute;

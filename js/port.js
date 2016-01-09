@@ -44,4 +44,27 @@ $(document).ready(function() {
     setHeight();
   });
 
+  // animation for click button
+  $.Velocity
+		.RegisterEffect("shadowIn", {
+			defaultDuration: 600,
+			calls: [
+				[ { scale: .9 }, 1.0 ]
+			]
+		})
+
+		.RegisterEffect("shadowBack", {
+			defaultDuration: 400,
+			calls: [
+				[ { scale: 1 } ]
+			]
+		})
+
+	$(".click").mouseover(function() {
+		$(this).velocity("shadowIn");
+	})
+	$(".click").mouseout(function() {
+		$(this).velocity("shadowBack");
+	})
+
 })
