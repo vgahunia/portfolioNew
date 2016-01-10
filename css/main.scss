@@ -312,6 +312,10 @@ video {
 	margin-top: 15px;
 }
 
+.blurb {
+
+}
+
 .description {
 	text-align: center;
 	width: 100%;
@@ -480,6 +484,13 @@ video {
 		font-size: 1.2em;
 	}
 
+	.video-row {
+		width: 80%;
+		margin: 0 auto;
+		padding-left: 2%;
+		border-radius: 5px 5px 0 0;
+	}
+
 }
 
 @media only screen and (max-width: 960px) {
@@ -500,6 +511,22 @@ video {
 			width: 100px;
 		}
 	}
+
+	.box {
+		width: 500px;
+		height: 300px;
+		margin: 0 auto;
+		border-radius: 5px;
+		border: 1px solid $maroon;
+	}
+
+	video iframe {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 60%;
+   height: 80%;
+}
 
 }
 
@@ -549,6 +576,19 @@ video {
 			border: 1px solid white;
 			width: 100px;
 		}
+	}
+
+	.box {
+		width: 75%;
+		margin: 0 auto;
+		border-radius: 5px;
+		border: 1px solid $maroon;
+	}
+
+	.video-row {
+		width: 90%;
+		margin: 0 auto;
+		padding-left: 2%;
 	}
 
 }
