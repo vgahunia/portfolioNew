@@ -35,7 +35,7 @@ ul, ol {
 
 #menu {
 	font-family: 'Julius Sans One', sans-serif;
-	position: absolute;
+	position: fixed;
 	top: 25px;
 	left: 0;
   background: rgba(0, 0, 0, 0.4);
