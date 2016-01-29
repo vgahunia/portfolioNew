@@ -180,6 +180,12 @@ video {
 	}
 }
 
+.addendum {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: .6em;
+	color: $blue;
+}
+
 // #name_port {
 // 	text-align: center;
 // 	h2 {
@@ -352,6 +358,12 @@ video {
 	left: -90px;
 	top: -30px;
 	transform: rotate(-35deg);
+}
+
+#igenetrain {
+	position: relative;
+	left: -100px;
+	top: -90px;
 }
 
 #blog {

@@ -141,6 +141,11 @@ video {
   #port .row {
     margin-left: 0; }
 
+.addendum {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: .6em;
+  color: #4A96AD; }
+
 .box {
   height: 300px;
   overflow: hidden;
@@ -265,6 +270,11 @@ video {
   left: -90px;
   top: -30px;
   transform: rotate(-35deg); }
+
+#igenetrain {
+  position: relative;
+  left: -100px;
+  top: -90px; }
 
 #blog {
   position: relative;

@@ -15,6 +15,14 @@ $(document).ready(function() {
     setHeight();
   });
 
+  $('.menu-anim li').hover(function() {
+		$(this).addClass("slideDown", 500, "swing" );
+	})
+
+	$('.menu-anim li').mouseout(function() {
+		$(this).removeClass("slideDown", 300, "swing");
+	})
+
  //  function pulse1(){
 	//   $('.scroll-down').velocity({ scale: 1.1 }, "ease-in-out");
 	// 	$('.scroll-down').velocity("reverse", {duration: 1500});
