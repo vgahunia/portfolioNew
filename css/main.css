@@ -116,7 +116,7 @@ video {
 .bio {
   margin-top: 70%;
   font-size: 1.1em;
-  color: white;
+  color: saddlebrown;
   font-family: 'Josefin Sans', sans-serif;
   padding-left: 0; }
   .bio li {
@@ -196,6 +196,25 @@ video {
     color: #F5F3EE;
     text-decoration: none; }
 
+.nonClick {
+  position: absolute;
+  top: 80%;
+  left: 15%;
+  font-size: .7em;
+  color: #4A96AD;
+  padding: 10px;
+  padding-top: 4px;
+  padding-bottom: 3px;
+  background-color: #F5F3EE;
+  border-radius: 8px;
+  width: 70%;
+  margin: 0 auto;
+  border: 1px solid #7D1935; }
+  .nonClick:hover {
+    background-color: #4A96AD;
+    color: #F5F3EE;
+    text-decoration: none; }
+
 .descrip-divider {
   position: absolute;
   top: 70%;
@@ -257,6 +276,9 @@ video {
   padding-top: 20px;
   max-width: 1960px;
   margin: 0 auto; }
+
+#jsImage {
+  background-color: black; }
 
 .project_divider {
   width: 70%;
@@ -344,6 +366,10 @@ video {
   width: 100%;
   height: 80%; }
 
+.disclaimer {
+  font-size: .6em;
+  color: red; }
+
 /*========================
 				CONTACT
 =======================  */
@@ -375,6 +401,74 @@ video {
   font-family: 'Josefin Sans', sans-serif;
   text-align: center; }
 
+/* ======================
+			GRAPH ANIMATION
+======================== */
+#graph {
+  background-color: #dcdce6; }
+
+.concomitantGraph {
+  position: relative;
+  left: -175px;
+  top: 50px;
+  margin-bottom: 20px;
+  margin-left: 5px; }
+  .concomitantGraph img {
+    width: 650px; }
+  .concomitantGraph .stLines {
+    position: absolute;
+    left: 188px;
+    height: 27px;
+    max-width: 0%; }
+  .concomitantGraph #stLine1 {
+    top: 8px; }
+  .concomitantGraph #stLine2 {
+    top: 50px; }
+  .concomitantGraph #stLine3 {
+    top: 93px; }
+  .concomitantGraph #stLine4 {
+    top: 135px; }
+
+/* Animatation for Graph */
+@-webkit-keyframes wipeRightGraph {
+  0% {
+    max-width: 0%; }
+  100% {
+    max-width: 100%; } }
+@keyframes wipeRightGraph {
+  0% {
+    max-width: 0%; }
+  100% {
+    max-width: 100%; } }
+.wipeRightGraph {
+  -webkit-animation-name: wipeRightGraph;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: wipeRightGraph;
+  animation-duration: 3s;
+  animation-fill-mode: forwards; }
+
+.wipeRightGraph.first {
+  -webkit-animation-delay: .3s;
+  animation-delay: .3s;
+  width: 310px; }
+
+.wipeRightGraph.second {
+  -webkit-animation-delay: .7s;
+  animation-delay: .7s;
+  width: 430px; }
+
+.wipeRightGraph.third {
+  -webkit-animation-delay: 1.1s;
+  animation-delay: 1.1s;
+  width: 255px; }
+
+.wipeRightGraph.fourth {
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+  width: 187px; }
+
+/* End animatation for Graph */
 /* ======================
 				MEDIA QUERIES
 ======================== */
