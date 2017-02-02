@@ -435,11 +435,13 @@ video {
     max-width: 0%; }
   100% {
     max-width: 100%; } }
+
 @keyframes wipeRightGraph {
   0% {
     max-width: 0%; }
   100% {
     max-width: 100%; } }
+
 .wipeRightGraph {
   -webkit-animation-name: wipeRightGraph;
   -webkit-animation-duration: 3s;
@@ -475,15 +477,14 @@ video {
 @media only screen and (max-width: 1100px) {
   .heading {
     font-size: 1em; }
-
   .description {
     font-size: 1.2em; }
-
   .video-row {
     width: 80%;
     margin: 0 auto;
     padding-left: 2%;
     border-radius: 5px 5px 0 0; } }
+
 @media only screen and (max-width: 960px) {
   .bio {
     margin-top: 55%;
@@ -498,25 +499,23 @@ video {
       padding: 0;
       border: 1px solid white;
       width: 100px; }
-
   .box {
     width: 500px;
     height: 300px;
     margin: 0 auto;
     border-radius: 5px;
     border: 1px solid #7D1935; }
-
   video iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 60%;
     height: 80%; } }
+
 @media only screen and (max-width: 640px) {
   #name h1 {
     font-size: 2.3em;
     text-align: center; }
-
   #name h3 {
     text-align: right;
     font-size: 1.7em;
@@ -525,17 +524,14 @@ video {
     margin-top: 0;
     font-family: 'Josefin Sans', sans-serif;
     border-top: 1px solid black; }
-
   #name {
     width: 300px;
     margin: 10 auto;
     margin-top: 50%; }
-
   #bio-page {
     background-color: powderblue; }
     #bio-page video {
       top: 100px; }
-
   .bio {
     margin-top: 70%;
     margin-right: 30px;
@@ -549,22 +545,20 @@ video {
       padding: 0;
       border: 1px solid white;
       width: 100px; }
-
   .box {
     width: 75%;
     margin: 0 auto;
     border-radius: 5px;
     border: 1px solid #7D1935; }
-
   .video-row {
     width: 90%;
     margin: 0 auto;
     padding-left: 2%; } }
+
 @media only screen and (max-device-width: 640px) {
   #name h1 {
     font-size: 2.3em;
     text-align: center; }
-
   #name h3 {
     text-align: right;
     font-size: 1.7em;
@@ -573,12 +567,10 @@ video {
     margin-top: 0;
     font-family: 'Josefin Sans', sans-serif;
     border-top: 1px solid black; }
-
   #name {
     width: 300px;
     margin: 10 auto;
     margin-top: 50%; }
-
   .bio {
     margin-top: 70%;
     margin-right: 30px;
@@ -592,5 +584,3 @@ video {
       padding: 0;
       border: 1px solid white;
       width: 100px; } }
-
-/*# sourceMappingURL=main.css.map */
